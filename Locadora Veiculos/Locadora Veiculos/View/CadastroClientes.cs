@@ -83,7 +83,7 @@ namespace Locadora_Veiculos
             MessageBoxIcon.Question);
             if (result2 == DialogResult.OK)
             {
-               /*
+               
                 ClienteDAO cliente = new ClienteDAO();
                 Cliente c = new Cliente();
 
@@ -101,7 +101,7 @@ namespace Locadora_Veiculos
                 
 
                 pessoaFisica.Inserir(pf);                    
-                cliente.Inserir(c);*/
+                cliente.Inserir(c);
               
             }
             if (result2 == DialogResult.Cancel)
