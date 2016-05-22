@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Persistencia.Service;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,15 +20,16 @@ namespace Locadora_Veiculos
            
         private void toolStripButton_entrar_Click(object sender, EventArgs e)
         {
-            textBox_usuario.Text = Convert.ToString(textBox_usuario.Text);
-            textBox_senha.Text = Convert.ToString(textBox_senha.Text);
-            if ((textBox_usuario.Text == "ramon") && (textBox_senha.Text == "ramon"))
+            UsuarioService user = new UsuarioService();
+            if (user.Autenticar(textBox_usuario.Text, textBox_senha.Text))
             {
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }
-            else MessageBox.Show("Usuario ou senha incorretos!", "Erro de Autenticação", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            else
+                MessageBox.Show("Usuario ou senha incorretos!", "Erro de Autenticação", MessageBoxButtons.OK, MessageBoxIcon.Hand);
         }
+    }
 
         private void Autenticacao_KeyDown(object sender, KeyEventArgs e)
         {

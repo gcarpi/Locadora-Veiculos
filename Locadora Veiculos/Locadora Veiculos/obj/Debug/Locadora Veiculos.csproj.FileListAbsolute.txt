@@ -49,3 +49,6 @@ C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Ve
 C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.exe
 C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.pdb
 C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Persistencia.exe
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Locadora Veiculos.exe.config
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.exe
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.pdb
