@@ -1,5 +1,6 @@
 ﻿using Persistencia.DAO;
 using Persistencia.Modelo;
+using Persistencia.Service;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -39,7 +40,7 @@ namespace Locadora_Veiculos
         private void Usuarios_Load(object sender, EventArgs e)
         {
             
-            foreach (Usuario user in new UsuarioDAO().Listar())
+            foreach (Usuario user in new UsuarioService().Listar())
             {
                 int index = dataGridView_Usuario.Rows.Add();
                 DataGridViewRow dado = dataGridView_Usuario.Rows[index];

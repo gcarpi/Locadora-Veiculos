@@ -20,24 +20,22 @@ namespace Locadora_Veiculos
            
         private void toolStripButton_entrar_Click(object sender, EventArgs e)
         {
-            UsuarioService user = new UsuarioService();
-            if (user.Autenticar(textBox_usuario.Text, textBox_senha.Text))
+            textBox_usuario.Text = Convert.ToString(textBox_usuario.Text);
+            textBox_senha.Text = Convert.ToString(textBox_senha.Text);
+            if ((textBox_usuario.Text == "ramon") && (textBox_senha.Text == "ramon"))
             {
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }
-            else
-                MessageBox.Show("Usuario ou senha incorretos!", "Erro de Autenticação", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            else MessageBox.Show("Usuario ou senha incorretos!", "Erro de Autenticação", MessageBoxButtons.OK, MessageBoxIcon.Hand);
         }
-    }
 
         private void Autenticacao_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
-                textBox_usuario.Text = Convert.ToString(textBox_usuario.Text);
-                textBox_senha.Text = Convert.ToString(textBox_senha.Text);
-                if ((textBox_usuario.Text == "ramon") && (textBox_senha.Text == "ramon"))
+                UsuarioService userS = new UsuarioService();
+                if (userS.Autenticar(textBox_usuario.Text,textBox_senha.Text))
                 {
                     this.DialogResult = DialogResult.OK;
                     this.Close();

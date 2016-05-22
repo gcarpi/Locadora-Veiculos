@@ -52,3 +52,51 @@ C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Ve
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Locadora Veiculos.exe.config
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.exe
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.pdb
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.csprojResolveAssemblyReference.cache
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.CadastroFornecedor.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.CadastroUsuarios.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Categorias.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.CheckList.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.DevolucaoManutencao.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.EntregaVeiculo.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.ExibirCategoria.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.ExibirFornecedor.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.ExibirHistoricoCheckList.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.ExibirPedido.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.ExibirUsuario.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.ExibirVeiculo.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Fornecedores.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Locacao.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Manutencao.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.NovaCategoria.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.NovaManutencao.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Pedidos.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.RelatorioCategorias.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.RelatorioClientes.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.RelatorioFornecedores.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Relatorios.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.RelatorioTodos.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.RelatorioUsuarios.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.RelatorioVeiculos.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.SelecionarCliente.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.SelecionarFornecedor.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.SelecionarVeiculo.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Sobre.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.TelaPrincipal.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Autenticacao.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Clientes.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.CadastroClientes.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.ExibirCliente.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Usuarios.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Veiculos.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.CadastroVeiculos.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Properties.Resources.resources
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.csproj.GenerateResource.Cache
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\View\CadastroVeiculos.resx
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\View\CadastroVeiculos.cs
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\View\CadastroVeiculos.Designer.cs
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Locadora Veiculos.exe
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Locadora Veiculos.pdb
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\MySql.Data.dll
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Persistencia.exe
+C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Persistencia.pdb

@@ -38,10 +38,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
-    <Reference Include="Persistencia, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\DaoMySql\Persistencia\Persistencia\bin\Debug\Persistencia.exe</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.Install" />
@@ -441,6 +437,12 @@
     <Content Include="Alugue Fácil.ico" />
     <Content Include="View\Logotipo.fw.png.ico" />
     <Content Include="View\LogotipoIcone.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\DaoMySql\Persistencia\Persistencia\Persistencia.csproj">
+      <Project>{342d7a39-ed94-4231-8c3e-0b1a0fc9fa8e}</Project>
+      <Name>Persistencia</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
