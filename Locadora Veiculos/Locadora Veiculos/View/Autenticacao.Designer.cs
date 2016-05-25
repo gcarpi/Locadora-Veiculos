@@ -77,7 +77,7 @@
             // 
             this.label_senha.AutoSize = true;
             this.label_senha.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_senha.Location = new System.Drawing.Point(134, 98);
+            this.label_senha.Location = new System.Drawing.Point(147, 98);
             this.label_senha.Name = "label_senha";
             this.label_senha.Size = new System.Drawing.Size(57, 23);
             this.label_senha.TabIndex = 0;
