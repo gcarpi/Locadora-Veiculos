@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Persistencia.DAO;
+using Persistencia.Modelo;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

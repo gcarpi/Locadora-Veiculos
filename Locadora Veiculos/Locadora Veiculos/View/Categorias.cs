@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Persistencia.DAO;
+using Persistencia.Modelo;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -43,7 +45,7 @@ namespace Locadora_Veiculos
             {
                 int index = dataGridView_Categoria.Rows.Add();
                 DataGridViewRow dado = dataGridView_Categoria.Rows[index];
-                dado.Cells["ID"].Value = categoria.CodigoCategoria;
+                dado.Cells["Código"].Value = categoria.CodigoCategoria;
                 dado.Cells["Nome"].Value = categoria.Nome;
                 dado.Cells["Valor"].Value = categoria.Valor;
             }
