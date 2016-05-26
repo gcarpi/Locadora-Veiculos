@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Locadora Veiculos.exe.config
 C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\View\CadastroVeiculos.resx
 C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\View\CadastroVeiculos.cs
@@ -51,7 +49,6 @@ C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Ve
 C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.exe
 C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.pdb
 C:\Users\Matheus\Desktop\Projeto\Locadora Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Persistencia.exe
->>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Locadora Veiculos.exe.config
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.exe
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.pdb
@@ -71,10 +68,7 @@ C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veic
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Fornecedores.resources
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Locacao.resources
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Manutencao.resources
-<<<<<<< HEAD
-=======
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.NovaCategoria.resources
->>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.NovaManutencao.resources
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Pedidos.resources
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.RelatorioCategorias.resources
@@ -98,10 +92,6 @@ C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veic
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.CadastroVeiculos.resources
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.Properties.Resources.resources
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.csproj.GenerateResource.Cache
-<<<<<<< HEAD
-C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora_Veiculos.NovaCategoria.resources
-=======
->>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\View\CadastroVeiculos.resx
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\View\CadastroVeiculos.cs
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\View\CadastroVeiculos.Designer.cs
@@ -110,3 +100,6 @@ C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veic
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\MySql.Data.dll
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Persistencia.exe
 C:\Users\Rafa\Documents\GitHub\Locadora-Veiculos\Locadora Veiculos\Locadora Veiculos\bin\Debug\Persistencia.pdb
+C:\Users\Rafa\Downloads\Locadora-Veiculos-master\Locadora Veiculos\Locadora Veiculos\bin\Debug\Locadora Veiculos.exe.config
+C:\Users\Rafa\Downloads\Locadora-Veiculos-master\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.exe
+C:\Users\Rafa\Downloads\Locadora-Veiculos-master\Locadora Veiculos\Locadora Veiculos\obj\Debug\Locadora Veiculos.pdb

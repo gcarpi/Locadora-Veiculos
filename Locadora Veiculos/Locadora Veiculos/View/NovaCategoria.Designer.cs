@@ -34,17 +34,10 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton_Sair = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-<<<<<<< HEAD
-            this.label_Nome = new System.Windows.Forms.Label();
-            this.label_Valor = new System.Windows.Forms.Label();
-            this.maskedTextBox_Nome = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox_Valor = new System.Windows.Forms.MaskedTextBox();
-=======
             this.textBox_Nome = new System.Windows.Forms.TextBox();
             this.label_Nome = new System.Windows.Forms.Label();
             this.label_Valor = new System.Windows.Forms.Label();
             this.textBox_Valor = new System.Windows.Forms.TextBox();
->>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,17 +95,6 @@
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(3, 70);
             // 
-<<<<<<< HEAD
-            // label_Nome
-            // 
-            this.label_Nome.AutoSize = true;
-            this.label_Nome.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Nome.Location = new System.Drawing.Point(26, 99);
-            this.label_Nome.Name = "label_Nome";
-            this.label_Nome.Size = new System.Drawing.Size(56, 23);
-            this.label_Nome.TabIndex = 116;
-            this.label_Nome.Text = "Nome";
-=======
             // textBox_Nome
             // 
             this.textBox_Nome.Location = new System.Drawing.Point(66, 93);
@@ -129,37 +111,10 @@
             this.label_Nome.Size = new System.Drawing.Size(49, 20);
             this.label_Nome.TabIndex = 116;
             this.label_Nome.Text = "Nome:";
->>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             // 
             // label_Valor
             // 
             this.label_Valor.AutoSize = true;
-<<<<<<< HEAD
-            this.label_Valor.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Valor.Location = new System.Drawing.Point(26, 147);
-            this.label_Valor.Name = "label_Valor";
-            this.label_Valor.Size = new System.Drawing.Size(50, 23);
-            this.label_Valor.TabIndex = 117;
-            this.label_Valor.Text = "Valor";
-            // 
-            // maskedTextBox_Nome
-            // 
-            this.maskedTextBox_Nome.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox_Nome.Location = new System.Drawing.Point(99, 96);
-            this.maskedTextBox_Nome.Mask = "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL";
-            this.maskedTextBox_Nome.Name = "maskedTextBox_Nome";
-            this.maskedTextBox_Nome.Size = new System.Drawing.Size(262, 31);
-            this.maskedTextBox_Nome.TabIndex = 1;
-            // 
-            // maskedTextBox_Valor
-            // 
-            this.maskedTextBox_Valor.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox_Valor.Location = new System.Drawing.Point(99, 144);
-            this.maskedTextBox_Valor.Mask = "000.00";
-            this.maskedTextBox_Valor.Name = "maskedTextBox_Valor";
-            this.maskedTextBox_Valor.Size = new System.Drawing.Size(79, 31);
-            this.maskedTextBox_Valor.TabIndex = 119;
-=======
             this.label_Valor.Font = new System.Drawing.Font("Arial Narrow", 12F);
             this.label_Valor.Location = new System.Drawing.Point(16, 125);
             this.label_Valor.Name = "label_Valor";
@@ -174,34 +129,22 @@
             this.textBox_Valor.Size = new System.Drawing.Size(79, 20);
             this.textBox_Valor.TabIndex = 118;
             this.textBox_Valor.TextChanged += new System.EventHandler(this.textBox_Valor_TextChanged);
->>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             // 
             // NovaCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(404, 199);
-            this.Controls.Add(this.maskedTextBox_Valor);
-            this.Controls.Add(this.maskedTextBox_Nome);
-            this.Controls.Add(this.label_Valor);
-=======
             this.ClientSize = new System.Drawing.Size(404, 172);
             this.Controls.Add(this.textBox_Valor);
             this.Controls.Add(this.label_Valor);
             this.Controls.Add(this.textBox_Nome);
->>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.Controls.Add(this.label_Nome);
             this.Controls.Add(this.toolStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "NovaCategoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nova Categoria";
-<<<<<<< HEAD
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.NovaCategoria_FormClosing);
-=======
->>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -216,16 +159,9 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripButton toolStripButton_Sair;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-<<<<<<< HEAD
-        private System.Windows.Forms.Label label_Nome;
-        private System.Windows.Forms.Label label_Valor;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox_Nome;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox_Valor;
-=======
         private System.Windows.Forms.TextBox textBox_Nome;
         private System.Windows.Forms.Label label_Nome;
         private System.Windows.Forms.Label label_Valor;
         private System.Windows.Forms.TextBox textBox_Valor;
->>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
     }
 }

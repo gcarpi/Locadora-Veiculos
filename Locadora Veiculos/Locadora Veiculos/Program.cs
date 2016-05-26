@@ -16,13 +16,8 @@ namespace Locadora_Veiculos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
-           // Autenticacao login = new Autenticacao();
-            //if (login.ShowDialog() == DialogResult.OK)
-=======
             Autenticacao login = new Autenticacao();
             if (login.ShowDialog() == DialogResult.OK)
->>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             {
                 Application.Run(new TelaPrincipal());
             }
