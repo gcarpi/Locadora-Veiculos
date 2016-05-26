@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 ﻿using Persistencia.DAO;
 using Persistencia.Modelo;
 using System;
+=======
+﻿using System;
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +24,7 @@ namespace Locadora_Veiculos
         }
         private void toolStripButton_Sair_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Close();
         }
 
@@ -50,3 +55,23 @@ namespace Locadora_Veiculos
         }
     }
 }
+=======
+            DialogResult result1 = MessageBox.Show("Deseja realmente sair?",
+              "Sair",
+             MessageBoxButtons.OKCancel);
+        }
+
+        private void toolStripButton_Selecionar_Click(object sender, EventArgs e)
+        {
+            ExibirCategoria nova = new ExibirCategoria();
+            nova.Show();
+        }
+
+        private void toolStripButton_Nova_Click(object sender, EventArgs e)
+        {
+            NovaCategoria nova = new NovaCategoria();
+            nova.Show();
+        }
+    }
+}
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29

@@ -20,8 +20,14 @@ namespace Locadora_Veiculos
            
         private void toolStripButton_entrar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             UsuarioService userS = new UsuarioService();
             if (userS.Autenticar(textBox_usuario.Text, textBox_senha.Text) || (textBox_usuario.Text.Equals("AlgFacil") && textBox_senha.Text.Equals("AlgSys1620")))
+=======
+            textBox_usuario.Text = Convert.ToString(textBox_usuario.Text);
+            textBox_senha.Text = Convert.ToString(textBox_senha.Text);
+            if ((textBox_usuario.Text == "ramon") && (textBox_senha.Text == "ramon"))
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             {
                 this.DialogResult = DialogResult.OK;
                 this.Close();
@@ -34,7 +40,11 @@ namespace Locadora_Veiculos
             if (e.KeyCode == Keys.Enter)
             {
                 UsuarioService userS = new UsuarioService();
+<<<<<<< HEAD
                 if (userS.Autenticar(textBox_usuario.Text,textBox_senha.Text) || (textBox_usuario.Text.Equals("AlgFacil") && textBox_senha.Text.Equals("AlgSys1620")))
+=======
+                if (userS.Autenticar(textBox_usuario.Text,textBox_senha.Text))
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
                 {
                     this.DialogResult = DialogResult.OK;
                     this.Close();
@@ -52,6 +62,22 @@ namespace Locadora_Veiculos
             {
                 this.Close();
             }
+<<<<<<< HEAD
         }
     }
 }
+=======
+            if (result1 == DialogResult.Cancel)
+            {
+
+            }
+        }
+
+ 
+    }
+    }
+    
+    
+    
+
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29

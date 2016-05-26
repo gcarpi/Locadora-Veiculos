@@ -32,17 +32,26 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton_Nova = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+<<<<<<< HEAD
+=======
+            this.toolStripButton_Selecionar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.toolStripButton_Sair = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.label_ValorBusca = new System.Windows.Forms.Label();
             this.textBox_ValorBusca = new System.Windows.Forms.TextBox();
             this.button_Pesquisar = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.dataGridView_Categoria = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Categoria)).BeginInit();
+=======
+            this.toolStrip1.SuspendLayout();
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -52,6 +61,11 @@
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton_Nova,
             this.toolStripSeparator1,
+<<<<<<< HEAD
+=======
+            this.toolStripButton_Selecionar,
+            this.toolStripSeparator3,
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.toolStripButton_Sair,
             this.toolStripSeparator2});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
@@ -80,6 +94,27 @@
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(3, 70);
             // 
+<<<<<<< HEAD
+=======
+            // toolStripButton_Selecionar
+            // 
+            this.toolStripButton_Selecionar.AutoSize = false;
+            this.toolStripButton_Selecionar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Selecionar.Image")));
+            this.toolStripButton_Selecionar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton_Selecionar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Selecionar.Name = "toolStripButton_Selecionar";
+            this.toolStripButton_Selecionar.Size = new System.Drawing.Size(80, 70);
+            this.toolStripButton_Selecionar.Text = "Selecionar";
+            this.toolStripButton_Selecionar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Selecionar.Click += new System.EventHandler(this.toolStripButton_Selecionar_Click);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.AutoSize = false;
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(3, 70);
+            // 
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
@@ -105,7 +140,11 @@
             this.label_ValorBusca.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_ValorBusca.Location = new System.Drawing.Point(223, 112);
             this.label_ValorBusca.Name = "label_ValorBusca";
+<<<<<<< HEAD
             this.label_ValorBusca.Size = new System.Drawing.Size(83, 15);
+=======
+            this.label_ValorBusca.Size = new System.Drawing.Size(84, 15);
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.label_ValorBusca.TabIndex = 14;
             this.label_ValorBusca.Text = "Valor de Busca";
             // 
@@ -134,6 +173,7 @@
             this.button_Pesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button_Pesquisar.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
             // dataGridView_Categoria
             // 
             this.dataGridView_Categoria.AllowUserToAddRows = false;
@@ -178,13 +218,18 @@
             this.Valor.ReadOnly = true;
             this.Valor.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
+=======
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             // Categorias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(720, 483);
+<<<<<<< HEAD
             this.Controls.Add(this.dataGridView_Categoria);
+=======
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.Controls.Add(this.button_Pesquisar);
             this.Controls.Add(this.textBox_ValorBusca);
             this.Controls.Add(this.label_ValorBusca);
@@ -193,10 +238,15 @@
             this.Name = "Categorias";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Categorias";
+<<<<<<< HEAD
             this.Activated += new System.EventHandler(this.Categorias_Activated);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Categoria)).EndInit();
+=======
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -207,14 +257,22 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton_Nova;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.ToolStripButton toolStripButton_Selecionar;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
         private System.Windows.Forms.ToolStripButton toolStripButton_Sair;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.Label label_ValorBusca;
         private System.Windows.Forms.TextBox textBox_ValorBusca;
         private System.Windows.Forms.Button button_Pesquisar;
+<<<<<<< HEAD
         private System.Windows.Forms.DataGridView dataGridView_Categoria;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
         private System.Windows.Forms.DataGridViewTextBoxColumn Valor;
+=======
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
     }
 }

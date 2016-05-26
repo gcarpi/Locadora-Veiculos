@@ -39,6 +39,10 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton_Entrar = new System.Windows.Forms.ToolStripButton();
             this.picture_autenticacao = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
+=======
+            this.label_autenticacao = new System.Windows.Forms.Label();
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picture_autenticacao)).BeginInit();
@@ -46,42 +50,72 @@
             // 
             // textBox_usuario
             // 
+<<<<<<< HEAD
             this.textBox_usuario.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_usuario.Location = new System.Drawing.Point(211, 47);
             this.textBox_usuario.MaxLength = 15;
             this.textBox_usuario.Name = "textBox_usuario";
             this.textBox_usuario.Size = new System.Drawing.Size(176, 31);
+=======
+            this.textBox_usuario.Location = new System.Drawing.Point(83, 71);
+            this.textBox_usuario.Name = "textBox_usuario";
+            this.textBox_usuario.Size = new System.Drawing.Size(176, 20);
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.textBox_usuario.TabIndex = 1;
             // 
             // textBox_senha
             // 
+<<<<<<< HEAD
             this.textBox_senha.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_senha.Location = new System.Drawing.Point(211, 94);
             this.textBox_senha.MaxLength = 15;
             this.textBox_senha.Name = "textBox_senha";
             this.textBox_senha.Size = new System.Drawing.Size(176, 31);
+=======
+            this.textBox_senha.Location = new System.Drawing.Point(83, 106);
+            this.textBox_senha.Name = "textBox_senha";
+            this.textBox_senha.Size = new System.Drawing.Size(176, 20);
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.textBox_senha.TabIndex = 2;
             this.textBox_senha.UseSystemPasswordChar = true;
             // 
             // label_usuario
             // 
             this.label_usuario.AutoSize = true;
+<<<<<<< HEAD
             this.label_usuario.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_usuario.Location = new System.Drawing.Point(134, 50);
             this.label_usuario.Name = "label_usuario";
             this.label_usuario.Size = new System.Drawing.Size(70, 23);
             this.label_usuario.TabIndex = 0;
             this.label_usuario.Text = "Usuário";
+=======
+            this.label_usuario.Font = new System.Drawing.Font("Impact", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_usuario.Location = new System.Drawing.Point(12, 74);
+            this.label_usuario.Name = "label_usuario";
+            this.label_usuario.Size = new System.Drawing.Size(45, 15);
+            this.label_usuario.TabIndex = 0;
+            this.label_usuario.Text = "Usuário:";
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             // 
             // label_senha
             // 
             this.label_senha.AutoSize = true;
+<<<<<<< HEAD
             this.label_senha.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_senha.Location = new System.Drawing.Point(147, 98);
             this.label_senha.Name = "label_senha";
             this.label_senha.Size = new System.Drawing.Size(57, 23);
             this.label_senha.TabIndex = 0;
             this.label_senha.Text = "Senha";
+=======
+            this.label_senha.Font = new System.Drawing.Font("Impact", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_senha.Location = new System.Drawing.Point(22, 107);
+            this.label_senha.Name = "label_senha";
+            this.label_senha.Size = new System.Drawing.Size(39, 15);
+            this.label_senha.TabIndex = 0;
+            this.label_senha.Text = "Senha:";
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             // 
             // toolStrip1
             // 
@@ -91,7 +125,11 @@
             this.toolStripButton_sair,
             this.toolStripSeparator1,
             this.toolStripButton_Entrar});
+<<<<<<< HEAD
             this.toolStrip1.Location = new System.Drawing.Point(267, 144);
+=======
+            this.toolStrip1.Location = new System.Drawing.Point(147, 144);
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(113, 25);
             this.toolStrip1.TabIndex = 3;
@@ -126,17 +164,41 @@
             // 
             this.picture_autenticacao.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picture_autenticacao.BackgroundImage")));
             this.picture_autenticacao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+<<<<<<< HEAD
             this.picture_autenticacao.Location = new System.Drawing.Point(12, 21);
             this.picture_autenticacao.Name = "picture_autenticacao";
             this.picture_autenticacao.Size = new System.Drawing.Size(116, 134);
             this.picture_autenticacao.TabIndex = 7;
             this.picture_autenticacao.TabStop = false;
             // 
+=======
+            this.picture_autenticacao.Location = new System.Drawing.Point(25, 12);
+            this.picture_autenticacao.Name = "picture_autenticacao";
+            this.picture_autenticacao.Size = new System.Drawing.Size(43, 39);
+            this.picture_autenticacao.TabIndex = 7;
+            this.picture_autenticacao.TabStop = false;
+            // 
+            // label_autenticacao
+            // 
+            this.label_autenticacao.AutoSize = true;
+            this.label_autenticacao.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_autenticacao.Location = new System.Drawing.Point(74, 21);
+            this.label_autenticacao.Name = "label_autenticacao";
+            this.label_autenticacao.Size = new System.Drawing.Size(169, 20);
+            this.label_autenticacao.TabIndex = 0;
+            this.label_autenticacao.Text = "Autenticação do Sistema";
+            // 
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             // Autenticacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(408, 178);
+=======
+            this.ClientSize = new System.Drawing.Size(300, 178);
+            this.Controls.Add(this.label_autenticacao);
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
             this.Controls.Add(this.picture_autenticacao);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label_senha);
@@ -169,6 +231,10 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton toolStripButton_Entrar;
         private System.Windows.Forms.PictureBox picture_autenticacao;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Label label_autenticacao;
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
         private System.Windows.Forms.ToolTip toolTip1;
     }
 }

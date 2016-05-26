@@ -20,20 +20,35 @@ namespace Locadora_Veiculos
         }
         private void toolStripButton_Sair_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Close();
+=======
+            this.Close();
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
         }
 
         private void toolStripButton_Salvar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if ((maskedTextBox_Nome.Text != "") && (maskedTextBox_Valor.Text != ""))
             {
                 DialogResult result1 = MessageBox.Show("Deseja salvar o novo cadastro?", "Salvar novo cadastro", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
 
                 if (result1 == DialogResult.OK)
+=======
+            DialogResult result1 = MessageBox.Show("Deseja salvar o novo cadastro?",
+            "Salvar novo cadastro",
+            MessageBoxButtons.OKCancel,
+            MessageBoxIcon.Question);
+            if (result1 == DialogResult.OK)
+            {
+                if ((textBox_Nome.Text != "") && (textBox_Valor != null))
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
                 {
                     CategoriaDAO categoria = new CategoriaDAO();
                     Categoria c = new Categoria();
 
+<<<<<<< HEAD
                     c.Nome = maskedTextBox_Nome.Text;
                     c.Valor = Decimal.Parse(maskedTextBox_Valor.Text);
 
@@ -61,3 +76,30 @@ namespace Locadora_Veiculos
         }
     }
 }
+=======
+                    c.Nome = textBox_Nome.Text;
+                    c.Valor = decimal.Parse(textBox_Valor.Text);
+                    c.Status = 1;
+                    categoria.Inserir(c);
+                    MessageBox.Show("Categoria Inserida com Sucesso");
+
+                }
+                else
+                {
+                    MessageBox.Show("Preencha corretamente as informações");
+                }
+
+            }
+            if (result1 == DialogResult.Cancel)
+            {
+
+            }
+        }
+
+        private void textBox_Valor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29

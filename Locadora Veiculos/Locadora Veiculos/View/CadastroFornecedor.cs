@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 ﻿using Persistencia.DAO;
 using Persistencia.Modelo;
 using System;
+=======
+﻿using System;
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,6 +41,7 @@ namespace Locadora_Veiculos
 
         private void toolStripButton_Salvar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if ((textBox_Nome.Text != "") && (textBox_RazaoSocial.Text != "") && (maskedTextBox_CNPJ.Text != ""))
             {
                 DialogResult result2 = MessageBox.Show("Deseja salvar o novo cadastro?","Salvar novo cadastro",MessageBoxButtons.OKCancel,MessageBoxIcon.Question);
@@ -69,6 +74,25 @@ namespace Locadora_Veiculos
             }
             else
                 MessageBox.Show("Preencha corretamente as informações", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+=======
+            DialogResult result2 = MessageBox.Show("Deseja salvar o novo cadastro?",
+             "Salvar novo cadastro",
+            MessageBoxButtons.OKCancel,
+            MessageBoxIcon.Question);
+            if (result2 == DialogResult.OK)
+            {
+
+            }
+            if (result2 == DialogResult.Cancel)
+            {
+
+            }
+        }
+
+        private void label_Cidade_Click(object sender, EventArgs e)
+        {
+
+>>>>>>> 1dc3da737ceddfc622961448dae04e4b2029aa29
         }
     }
 }
