@@ -47,7 +47,7 @@
             // 
             // textBox_usuario
             // 
-            this.textBox_usuario.Location = new System.Drawing.Point(83, 71);
+            this.textBox_usuario.Location = new System.Drawing.Point(83, 75);
             this.textBox_usuario.Name = "textBox_usuario";
             this.textBox_usuario.Size = new System.Drawing.Size(176, 20);
             this.textBox_usuario.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             this.label_usuario.AutoSize = true;
             this.label_usuario.Font = new System.Drawing.Font("Impact", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_usuario.Location = new System.Drawing.Point(12, 74);
+            this.label_usuario.Location = new System.Drawing.Point(22, 76);
             this.label_usuario.Name = "label_usuario";
             this.label_usuario.Size = new System.Drawing.Size(45, 15);
             this.label_usuario.TabIndex = 0;
@@ -74,7 +74,7 @@
             // 
             this.label_senha.AutoSize = true;
             this.label_senha.Font = new System.Drawing.Font("Impact", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_senha.Location = new System.Drawing.Point(22, 107);
+            this.label_senha.Location = new System.Drawing.Point(28, 107);
             this.label_senha.Name = "label_senha";
             this.label_senha.Size = new System.Drawing.Size(39, 15);
             this.label_senha.TabIndex = 0;
@@ -133,7 +133,7 @@
             // 
             this.label_autenticacao.AutoSize = true;
             this.label_autenticacao.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_autenticacao.Location = new System.Drawing.Point(74, 21);
+            this.label_autenticacao.Location = new System.Drawing.Point(79, 31);
             this.label_autenticacao.Name = "label_autenticacao";
             this.label_autenticacao.Size = new System.Drawing.Size(169, 20);
             this.label_autenticacao.TabIndex = 0;
