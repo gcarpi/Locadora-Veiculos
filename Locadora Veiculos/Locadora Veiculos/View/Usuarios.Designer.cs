@@ -68,7 +68,7 @@
             this.toolStripSeparator2});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(735, 73);
             this.toolStrip1.TabIndex = 8;
             this.toolStrip1.Text = "toolStrip1";
@@ -76,6 +76,8 @@
             // toolStripButton_Novo
             // 
             this.toolStripButton_Novo.AutoSize = false;
+            this.toolStripButton_Novo.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Novo.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Novo.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Novo.Image")));
             this.toolStripButton_Novo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Novo.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -95,6 +97,8 @@
             // toolStripButton_Selecionar
             // 
             this.toolStripButton_Selecionar.AutoSize = false;
+            this.toolStripButton_Selecionar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Selecionar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Selecionar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Selecionar.Image")));
             this.toolStripButton_Selecionar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Selecionar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -113,6 +117,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -132,12 +138,12 @@
             // label_ValorBusca
             // 
             this.label_ValorBusca.AutoSize = true;
-            this.label_ValorBusca.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_ValorBusca.Location = new System.Drawing.Point(176, 95);
+            this.label_ValorBusca.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_ValorBusca.Location = new System.Drawing.Point(329, 102);
             this.label_ValorBusca.Name = "label_ValorBusca";
-            this.label_ValorBusca.Size = new System.Drawing.Size(83, 15);
+            this.label_ValorBusca.Size = new System.Drawing.Size(114, 19);
             this.label_ValorBusca.TabIndex = 13;
-            this.label_ValorBusca.Text = "Valor de Busca";
+            this.label_ValorBusca.Text = "Buscar Usuários";
             // 
             // comboBox_TipoUsuario
             // 
@@ -149,18 +155,18 @@
             "Todos",
             "Comum",
             "Administrador"});
-            this.comboBox_TipoUsuario.Location = new System.Drawing.Point(62, 114);
+            this.comboBox_TipoUsuario.Location = new System.Drawing.Point(12, 124);
             this.comboBox_TipoUsuario.Name = "comboBox_TipoUsuario";
-            this.comboBox_TipoUsuario.Size = new System.Drawing.Size(101, 25);
+            this.comboBox_TipoUsuario.Size = new System.Drawing.Size(132, 25);
             this.comboBox_TipoUsuario.TabIndex = 12;
             // 
             // label_TipoUsuario
             // 
             this.label_TipoUsuario.AutoSize = true;
-            this.label_TipoUsuario.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_TipoUsuario.Location = new System.Drawing.Point(59, 95);
+            this.label_TipoUsuario.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_TipoUsuario.Location = new System.Drawing.Point(23, 102);
             this.label_TipoUsuario.Name = "label_TipoUsuario";
-            this.label_TipoUsuario.Size = new System.Drawing.Size(84, 16);
+            this.label_TipoUsuario.Size = new System.Drawing.Size(111, 19);
             this.label_TipoUsuario.TabIndex = 11;
             this.label_TipoUsuario.Text = "Tipo de Usuário";
             // 
@@ -169,13 +175,14 @@
             this.button_Pesquisar.AutoSize = true;
             this.button_Pesquisar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button_Pesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Pesquisar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Pesquisar.Image = ((System.Drawing.Image)(resources.GetObject("button_Pesquisar.Image")));
-            this.button_Pesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button_Pesquisar.Location = new System.Drawing.Point(554, 109);
+            this.button_Pesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Pesquisar.Location = new System.Drawing.Point(617, 122);
             this.button_Pesquisar.Margin = new System.Windows.Forms.Padding(0);
             this.button_Pesquisar.Name = "button_Pesquisar";
-            this.button_Pesquisar.Size = new System.Drawing.Size(101, 30);
-            this.button_Pesquisar.TabIndex = 10;
+            this.button_Pesquisar.Size = new System.Drawing.Size(90, 30);
+            this.button_Pesquisar.TabIndex = 4;
             this.button_Pesquisar.Text = "Pesquisar";
             this.button_Pesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button_Pesquisar.UseVisualStyleBackColor = true;
@@ -183,10 +190,10 @@
             // textBox_ValorBusca
             // 
             this.textBox_ValorBusca.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_ValorBusca.Location = new System.Drawing.Point(179, 114);
+            this.textBox_ValorBusca.Location = new System.Drawing.Point(153, 124);
             this.textBox_ValorBusca.Multiline = true;
             this.textBox_ValorBusca.Name = "textBox_ValorBusca";
-            this.textBox_ValorBusca.Size = new System.Drawing.Size(360, 25);
+            this.textBox_ValorBusca.Size = new System.Drawing.Size(461, 25);
             this.textBox_ValorBusca.TabIndex = 9;
             this.textBox_ValorBusca.Text = "Digite Nome,Usuário,CPF,RG.";
             // 
@@ -215,11 +222,11 @@
             this.Código,
             this.Nome,
             this.Login});
-            this.dataGridView_Usuario.Location = new System.Drawing.Point(62, 172);
+            this.dataGridView_Usuario.Location = new System.Drawing.Point(12, 155);
             this.dataGridView_Usuario.MultiSelect = false;
             this.dataGridView_Usuario.Name = "dataGridView_Usuario";
             this.dataGridView_Usuario.ReadOnly = true;
-            this.dataGridView_Usuario.Size = new System.Drawing.Size(593, 266);
+            this.dataGridView_Usuario.Size = new System.Drawing.Size(695, 316);
             this.dataGridView_Usuario.TabIndex = 14;
             this.dataGridView_Usuario.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_Usuario_CellClick);
             // 
@@ -249,7 +256,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(735, 483);
             this.Controls.Add(this.dataGridView_Usuario);
             this.Controls.Add(this.toolStrip1);

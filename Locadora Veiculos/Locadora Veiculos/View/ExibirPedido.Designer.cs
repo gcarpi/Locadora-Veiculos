@@ -42,11 +42,11 @@
             this.label_NPedido = new System.Windows.Forms.Label();
             this.textBox_NPedido = new System.Windows.Forms.TextBox();
             this.label_DataAbertura = new System.Windows.Forms.Label();
-            this.textBox_DataAbertura = new System.Windows.Forms.TextBox();
             this.textBox_Cliente = new System.Windows.Forms.TextBox();
             this.label_Valor = new System.Windows.Forms.Label();
             this.textBox_Valor = new System.Windows.Forms.TextBox();
             this.dataGridView_Pedido = new System.Windows.Forms.DataGridView();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Pedido)).BeginInit();
             this.SuspendLayout();
@@ -67,7 +67,7 @@
             this.toolStripSeparator9});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(720, 73);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
@@ -75,6 +75,8 @@
             // toolStripButton_Imprimir
             // 
             this.toolStripButton_Imprimir.AutoSize = false;
+            this.toolStripButton_Imprimir.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Imprimir.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Imprimir.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Imprimir.Image")));
             this.toolStripButton_Imprimir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Imprimir.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -93,6 +95,8 @@
             // toolStripButton_Contrato
             // 
             this.toolStripButton_Contrato.AutoSize = false;
+            this.toolStripButton_Contrato.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Contrato.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Contrato.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Contrato.Image")));
             this.toolStripButton_Contrato.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Contrato.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -111,6 +115,8 @@
             // toolStripButton_Entrega
             // 
             this.toolStripButton_Entrega.AutoSize = false;
+            this.toolStripButton_Entrega.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Entrega.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Entrega.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Entrega.Image")));
             this.toolStripButton_Entrega.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Entrega.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -129,6 +135,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -148,50 +156,43 @@
             // label_Cliente
             // 
             this.label_Cliente.AutoSize = true;
-            this.label_Cliente.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Cliente.Location = new System.Drawing.Point(8, 99);
+            this.label_Cliente.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Cliente.Location = new System.Drawing.Point(27, 103);
             this.label_Cliente.Name = "label_Cliente";
-            this.label_Cliente.Size = new System.Drawing.Size(54, 20);
+            this.label_Cliente.Size = new System.Drawing.Size(55, 19);
             this.label_Cliente.TabIndex = 65;
-            this.label_Cliente.Text = "Cliente:";
+            this.label_Cliente.Text = "Cliente";
             // 
             // label_NPedido
             // 
             this.label_NPedido.AutoSize = true;
-            this.label_NPedido.Font = new System.Drawing.Font("Arial Narrow", 12F);
+            this.label_NPedido.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_NPedido.Location = new System.Drawing.Point(8, 144);
             this.label_NPedido.Name = "label_NPedido";
-            this.label_NPedido.Size = new System.Drawing.Size(75, 20);
+            this.label_NPedido.Size = new System.Drawing.Size(74, 19);
             this.label_NPedido.TabIndex = 77;
-            this.label_NPedido.Text = "Nº Pedido:";
+            this.label_NPedido.Text = "Nº Pedido";
             // 
             // textBox_NPedido
             // 
             this.textBox_NPedido.Location = new System.Drawing.Point(89, 144);
             this.textBox_NPedido.Name = "textBox_NPedido";
-            this.textBox_NPedido.Size = new System.Drawing.Size(170, 20);
+            this.textBox_NPedido.Size = new System.Drawing.Size(233, 20);
             this.textBox_NPedido.TabIndex = 78;
             // 
             // label_DataAbertura
             // 
             this.label_DataAbertura.AutoSize = true;
-            this.label_DataAbertura.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_DataAbertura.Location = new System.Drawing.Point(284, 142);
+            this.label_DataAbertura.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_DataAbertura.Location = new System.Drawing.Point(328, 145);
             this.label_DataAbertura.Name = "label_DataAbertura";
-            this.label_DataAbertura.Size = new System.Drawing.Size(93, 20);
+            this.label_DataAbertura.Size = new System.Drawing.Size(100, 19);
             this.label_DataAbertura.TabIndex = 79;
-            this.label_DataAbertura.Text = "Data Abertura:";
-            // 
-            // textBox_DataAbertura
-            // 
-            this.textBox_DataAbertura.Location = new System.Drawing.Point(383, 142);
-            this.textBox_DataAbertura.Name = "textBox_DataAbertura";
-            this.textBox_DataAbertura.Size = new System.Drawing.Size(116, 20);
-            this.textBox_DataAbertura.TabIndex = 80;
+            this.label_DataAbertura.Text = "Data Abertura";
             // 
             // textBox_Cliente
             // 
-            this.textBox_Cliente.Location = new System.Drawing.Point(89, 101);
+            this.textBox_Cliente.Location = new System.Drawing.Point(88, 104);
             this.textBox_Cliente.Name = "textBox_Cliente";
             this.textBox_Cliente.Size = new System.Drawing.Size(410, 20);
             this.textBox_Cliente.TabIndex = 81;
@@ -199,39 +200,46 @@
             // label_Valor
             // 
             this.label_Valor.AutoSize = true;
-            this.label_Valor.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Valor.Location = new System.Drawing.Point(549, 144);
+            this.label_Valor.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Valor.Location = new System.Drawing.Point(524, 105);
             this.label_Valor.Name = "label_Valor";
-            this.label_Valor.Size = new System.Drawing.Size(44, 20);
+            this.label_Valor.Size = new System.Drawing.Size(42, 19);
             this.label_Valor.TabIndex = 82;
-            this.label_Valor.Text = "Valor:";
+            this.label_Valor.Text = "Valor";
             // 
             // textBox_Valor
             // 
-            this.textBox_Valor.Location = new System.Drawing.Point(608, 144);
+            this.textBox_Valor.Location = new System.Drawing.Point(572, 104);
             this.textBox_Valor.Name = "textBox_Valor";
-            this.textBox_Valor.Size = new System.Drawing.Size(100, 20);
+            this.textBox_Valor.Size = new System.Drawing.Size(136, 20);
             this.textBox_Valor.TabIndex = 83;
             // 
             // dataGridView_Pedido
             // 
             this.dataGridView_Pedido.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_Pedido.Location = new System.Drawing.Point(12, 184);
+            this.dataGridView_Pedido.Location = new System.Drawing.Point(12, 193);
             this.dataGridView_Pedido.Name = "dataGridView_Pedido";
-            this.dataGridView_Pedido.Size = new System.Drawing.Size(696, 287);
+            this.dataGridView_Pedido.Size = new System.Drawing.Size(696, 278);
             this.dataGridView_Pedido.TabIndex = 84;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(434, 145);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(274, 20);
+            this.dateTimePicker1.TabIndex = 85;
             // 
             // ExibirPedido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(720, 483);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.dataGridView_Pedido);
             this.Controls.Add(this.textBox_Valor);
             this.Controls.Add(this.label_Valor);
             this.Controls.Add(this.textBox_Cliente);
-            this.Controls.Add(this.textBox_DataAbertura);
             this.Controls.Add(this.label_DataAbertura);
             this.Controls.Add(this.textBox_NPedido);
             this.Controls.Add(this.label_NPedido);
@@ -262,12 +270,12 @@
         private System.Windows.Forms.Label label_NPedido;
         private System.Windows.Forms.TextBox textBox_NPedido;
         private System.Windows.Forms.Label label_DataAbertura;
-        private System.Windows.Forms.TextBox textBox_DataAbertura;
         private System.Windows.Forms.ToolStripButton toolStripButton_Contrato;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.TextBox textBox_Cliente;
         private System.Windows.Forms.Label label_Valor;
         private System.Windows.Forms.TextBox textBox_Valor;
         private System.Windows.Forms.DataGridView dataGridView_Pedido;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

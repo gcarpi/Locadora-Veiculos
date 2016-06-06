@@ -87,5 +87,10 @@ namespace Locadora_Veiculos
         {
 
         }
+
+        private void label_Senha_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

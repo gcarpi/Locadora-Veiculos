@@ -35,73 +35,64 @@
             this.label_usuario = new System.Windows.Forms.Label();
             this.label_senha = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton_sair = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton_Entrar = new System.Windows.Forms.ToolStripButton();
             this.picture_autenticacao = new System.Windows.Forms.PictureBox();
             this.label_autenticacao = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolStripButton_sair = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picture_autenticacao)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox_usuario
             // 
-            this.textBox_usuario.Location = new System.Drawing.Point(83, 75);
+            this.textBox_usuario.Location = new System.Drawing.Point(73, 75);
             this.textBox_usuario.Name = "textBox_usuario";
-            this.textBox_usuario.Size = new System.Drawing.Size(176, 20);
+            this.textBox_usuario.Size = new System.Drawing.Size(193, 20);
             this.textBox_usuario.TabIndex = 1;
             // 
             // textBox_senha
             // 
-            this.textBox_senha.Location = new System.Drawing.Point(83, 106);
+            this.textBox_senha.Location = new System.Drawing.Point(73, 106);
             this.textBox_senha.Name = "textBox_senha";
-            this.textBox_senha.Size = new System.Drawing.Size(176, 20);
+            this.textBox_senha.Size = new System.Drawing.Size(193, 20);
             this.textBox_senha.TabIndex = 2;
             this.textBox_senha.UseSystemPasswordChar = true;
             // 
             // label_usuario
             // 
             this.label_usuario.AutoSize = true;
-            this.label_usuario.Font = new System.Drawing.Font("Impact", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_usuario.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_usuario.Location = new System.Drawing.Point(22, 76);
             this.label_usuario.Name = "label_usuario";
-            this.label_usuario.Size = new System.Drawing.Size(45, 15);
+            this.label_usuario.Size = new System.Drawing.Size(47, 15);
             this.label_usuario.TabIndex = 0;
-            this.label_usuario.Text = "Usuário:";
+            this.label_usuario.Text = "Usuário";
             // 
             // label_senha
             // 
             this.label_senha.AutoSize = true;
-            this.label_senha.Font = new System.Drawing.Font("Impact", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_senha.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_senha.Location = new System.Drawing.Point(28, 107);
             this.label_senha.Name = "label_senha";
             this.label_senha.Size = new System.Drawing.Size(39, 15);
             this.label_senha.TabIndex = 0;
-            this.label_senha.Text = "Senha:";
+            this.label_senha.Text = "Senha";
             // 
             // toolStrip1
             // 
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton_sair,
+            this.toolStripButton_Entrar,
             this.toolStripSeparator1,
-            this.toolStripButton_Entrar});
+            this.toolStripButton_sair});
             this.toolStrip1.Location = new System.Drawing.Point(147, 144);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(113, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(119, 25);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripButton_sair
-            // 
-            this.toolStripButton_sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_sair.Image")));
-            this.toolStripButton_sair.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_sair.Name = "toolStripButton_sair";
-            this.toolStripButton_sair.Size = new System.Drawing.Size(46, 22);
-            this.toolStripButton_sair.Text = "Sair";
-            this.toolStripButton_sair.Click += new System.EventHandler(this.toolStripButton_sair_Click);
             // 
             // toolStripSeparator1
             // 
@@ -110,10 +101,11 @@
             // 
             // toolStripButton_Entrar
             // 
+            this.toolStripButton_Entrar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripButton_Entrar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Entrar.Image")));
             this.toolStripButton_Entrar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton_Entrar.Name = "toolStripButton_Entrar";
-            this.toolStripButton_Entrar.Size = new System.Drawing.Size(58, 22);
+            this.toolStripButton_Entrar.Size = new System.Drawing.Size(60, 22);
             this.toolStripButton_Entrar.Text = "Entrar";
             this.toolStripButton_Entrar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.toolStripButton_Entrar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -123,7 +115,7 @@
             // 
             this.picture_autenticacao.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picture_autenticacao.BackgroundImage")));
             this.picture_autenticacao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picture_autenticacao.Location = new System.Drawing.Point(25, 12);
+            this.picture_autenticacao.Location = new System.Drawing.Point(27, 21);
             this.picture_autenticacao.Name = "picture_autenticacao";
             this.picture_autenticacao.Size = new System.Drawing.Size(43, 39);
             this.picture_autenticacao.TabIndex = 7;
@@ -132,12 +124,22 @@
             // label_autenticacao
             // 
             this.label_autenticacao.AutoSize = true;
-            this.label_autenticacao.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_autenticacao.Location = new System.Drawing.Point(79, 31);
+            this.label_autenticacao.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_autenticacao.Location = new System.Drawing.Point(76, 30);
             this.label_autenticacao.Name = "label_autenticacao";
-            this.label_autenticacao.Size = new System.Drawing.Size(169, 20);
+            this.label_autenticacao.Size = new System.Drawing.Size(190, 21);
             this.label_autenticacao.TabIndex = 0;
             this.label_autenticacao.Text = "Autenticação do Sistema";
+            // 
+            // toolStripButton_sair
+            // 
+            this.toolStripButton_sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_sair.Image")));
+            this.toolStripButton_sair.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_sair.Name = "toolStripButton_sair";
+            this.toolStripButton_sair.Size = new System.Drawing.Size(50, 22);
+            this.toolStripButton_sair.Text = "Sair";
+            this.toolStripButton_sair.Click += new System.EventHandler(this.toolStripButton_sair_Click);
             // 
             // Autenticacao
             // 
@@ -156,7 +158,7 @@
             this.MaximizeBox = false;
             this.Name = "Autenticacao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Autenticação Sistema";
+            this.Text = "Login";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Autenticacao_KeyDown);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
@@ -173,11 +175,11 @@
         private System.Windows.Forms.Label label_usuario;
         private System.Windows.Forms.Label label_senha;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButton_sair;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton toolStripButton_Entrar;
         private System.Windows.Forms.PictureBox picture_autenticacao;
         private System.Windows.Forms.Label label_autenticacao;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolStripButton toolStripButton_sair;
     }
 }

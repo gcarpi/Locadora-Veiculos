@@ -62,7 +62,7 @@
             this.toolStripSeparator1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(487, 73);
             this.toolStrip1.TabIndex = 90;
             this.toolStrip1.Text = "toolStrip1";
@@ -71,6 +71,8 @@
             // 
             this.toolStripButton_Confirmar.AutoSize = false;
             this.toolStripButton_Confirmar.DoubleClickEnabled = true;
+            this.toolStripButton_Confirmar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Confirmar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Confirmar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Confirmar.Image")));
             this.toolStripButton_Confirmar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Confirmar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -89,12 +91,14 @@
             // toolStripButton_CheckList
             // 
             this.toolStripButton_CheckList.AutoSize = false;
+            this.toolStripButton_CheckList.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_CheckList.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_CheckList.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_CheckList.Image")));
             this.toolStripButton_CheckList.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_CheckList.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton_CheckList.Name = "toolStripButton_CheckList";
             this.toolStripButton_CheckList.Size = new System.Drawing.Size(80, 70);
-            this.toolStripButton_CheckList.Text = "Check List";
+            this.toolStripButton_CheckList.Text = "Checklist";
             this.toolStripButton_CheckList.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripButton_CheckList.Click += new System.EventHandler(this.toolStripButton_CheckList_Click);
             // 
@@ -107,6 +111,8 @@
             // toolStripButton_Cancelar
             // 
             this.toolStripButton_Cancelar.AutoSize = false;
+            this.toolStripButton_Cancelar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Cancelar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Cancelar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Cancelar.Image")));
             this.toolStripButton_Cancelar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Cancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -125,7 +131,7 @@
             // 
             // dateTimePicker_DataEntrega
             // 
-            this.dateTimePicker_DataEntrega.Location = new System.Drawing.Point(107, 142);
+            this.dateTimePicker_DataEntrega.Location = new System.Drawing.Point(132, 129);
             this.dateTimePicker_DataEntrega.Name = "dateTimePicker_DataEntrega";
             this.dateTimePicker_DataEntrega.Size = new System.Drawing.Size(259, 20);
             this.dateTimePicker_DataEntrega.TabIndex = 94;
@@ -133,29 +139,29 @@
             // label_DataEntrega
             // 
             this.label_DataEntrega.AutoSize = true;
-            this.label_DataEntrega.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_DataEntrega.Location = new System.Drawing.Point(12, 143);
+            this.label_DataEntrega.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_DataEntrega.Location = new System.Drawing.Point(12, 129);
             this.label_DataEntrega.Name = "label_DataEntrega";
-            this.label_DataEntrega.Size = new System.Drawing.Size(89, 20);
+            this.label_DataEntrega.Size = new System.Drawing.Size(114, 19);
             this.label_DataEntrega.TabIndex = 93;
-            this.label_DataEntrega.Text = "Data Entrega:";
+            this.label_DataEntrega.Text = "Data de entrega";
             // 
             // label_Veículo
             // 
             this.label_Veículo.AutoSize = true;
-            this.label_Veículo.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Veículo.Location = new System.Drawing.Point(12, 95);
+            this.label_Veículo.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Veículo.Location = new System.Drawing.Point(12, 94);
             this.label_Veículo.Name = "label_Veículo";
-            this.label_Veículo.Size = new System.Drawing.Size(58, 20);
+            this.label_Veículo.Size = new System.Drawing.Size(56, 19);
             this.label_Veículo.TabIndex = 95;
-            this.label_Veículo.Text = "Veículo:";
+            this.label_Veículo.Text = "Veículo";
             // 
             // comboBox_Veiculo
             // 
             this.comboBox_Veiculo.FormattingEnabled = true;
-            this.comboBox_Veiculo.Location = new System.Drawing.Point(107, 94);
+            this.comboBox_Veiculo.Location = new System.Drawing.Point(74, 94);
             this.comboBox_Veiculo.Name = "comboBox_Veiculo";
-            this.comboBox_Veiculo.Size = new System.Drawing.Size(259, 21);
+            this.comboBox_Veiculo.Size = new System.Drawing.Size(317, 21);
             this.comboBox_Veiculo.TabIndex = 96;
             // 
             // toolStrip2
@@ -164,7 +170,7 @@
             this.toolStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton_Pesquisar});
-            this.toolStrip2.Location = new System.Drawing.Point(379, 90);
+            this.toolStrip2.Location = new System.Drawing.Point(394, 96);
             this.toolStrip2.Name = "toolStrip2";
             this.toolStrip2.Size = new System.Drawing.Size(26, 25);
             this.toolStrip2.TabIndex = 97;
@@ -183,27 +189,29 @@
             // label_CheckList
             // 
             this.label_CheckList.AutoSize = true;
-            this.label_CheckList.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_CheckList.Location = new System.Drawing.Point(12, 177);
+            this.label_CheckList.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_CheckList.Location = new System.Drawing.Point(12, 176);
             this.label_CheckList.Name = "label_CheckList";
-            this.label_CheckList.Size = new System.Drawing.Size(75, 20);
+            this.label_CheckList.Size = new System.Drawing.Size(68, 19);
             this.label_CheckList.TabIndex = 98;
-            this.label_CheckList.Text = "Check List:";
+            this.label_CheckList.Text = "Checklist";
             // 
             // textBox_CheckList
             // 
             this.textBox_CheckList.ForeColor = System.Drawing.Color.DarkRed;
             this.textBox_CheckList.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.textBox_CheckList.Location = new System.Drawing.Point(107, 177);
+            this.textBox_CheckList.Location = new System.Drawing.Point(86, 177);
             this.textBox_CheckList.Name = "textBox_CheckList";
-            this.textBox_CheckList.Size = new System.Drawing.Size(102, 20);
+            this.textBox_CheckList.Size = new System.Drawing.Size(150, 20);
             this.textBox_CheckList.TabIndex = 99;
-            this.textBox_CheckList.Text = "    Não Realizado";
+            this.textBox_CheckList.Text = "Não Realizado";
+            this.textBox_CheckList.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // EntregaVeiculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(487, 215);
             this.Controls.Add(this.textBox_CheckList);
             this.Controls.Add(this.label_CheckList);

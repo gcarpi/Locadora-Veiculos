@@ -50,7 +50,7 @@
             this.toolStripSeparator3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(345, 73);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
@@ -58,6 +58,8 @@
             // toolStripButton_Emitir
             // 
             this.toolStripButton_Emitir.AutoSize = false;
+            this.toolStripButton_Emitir.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Emitir.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Emitir.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Emitir.Image")));
             this.toolStripButton_Emitir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Emitir.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -77,6 +79,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -103,26 +107,26 @@
             "Fornecedores",
             "Veículos",
             "Categorias"});
-            this.comboBox_Selecionar.Location = new System.Drawing.Point(92, 105);
+            this.comboBox_Selecionar.Location = new System.Drawing.Point(89, 105);
             this.comboBox_Selecionar.Name = "comboBox_Selecionar";
-            this.comboBox_Selecionar.Size = new System.Drawing.Size(139, 21);
+            this.comboBox_Selecionar.Size = new System.Drawing.Size(163, 21);
             this.comboBox_Selecionar.TabIndex = 4;
             // 
             // label_Selecionar
             // 
             this.label_Selecionar.AutoSize = true;
-            this.label_Selecionar.Font = new System.Drawing.Font("Arial Narrow", 12F);
+            this.label_Selecionar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Selecionar.Location = new System.Drawing.Point(12, 105);
             this.label_Selecionar.Name = "label_Selecionar";
-            this.label_Selecionar.Size = new System.Drawing.Size(74, 20);
+            this.label_Selecionar.Size = new System.Drawing.Size(71, 19);
             this.label_Selecionar.TabIndex = 64;
-            this.label_Selecionar.Text = "Selecione:";
+            this.label_Selecionar.Text = "Selecione";
             // 
             // RelatorioTodos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(345, 175);
             this.Controls.Add(this.label_Selecionar);
             this.Controls.Add(this.comboBox_Selecionar);

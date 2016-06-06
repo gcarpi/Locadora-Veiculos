@@ -50,14 +50,16 @@
             this.toolStripSeparator3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(302, 73);
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.toolStrip1.Size = new System.Drawing.Size(352, 73);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // toolStripButton_Entrar
             // 
             this.toolStripButton_Entrar.AutoSize = false;
+            this.toolStripButton_Entrar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Entrar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Entrar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Entrar.Image")));
             this.toolStripButton_Entrar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Entrar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -77,6 +79,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -96,12 +100,13 @@
             // label_Selecionar
             // 
             this.label_Selecionar.AutoSize = true;
-            this.label_Selecionar.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Selecionar.Location = new System.Drawing.Point(31, 99);
+            this.label_Selecionar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Selecionar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Selecionar.Location = new System.Drawing.Point(27, 109);
             this.label_Selecionar.Name = "label_Selecionar";
-            this.label_Selecionar.Size = new System.Drawing.Size(74, 20);
+            this.label_Selecionar.Size = new System.Drawing.Size(71, 19);
             this.label_Selecionar.TabIndex = 63;
-            this.label_Selecionar.Text = "Selecione:";
+            this.label_Selecionar.Text = "Selecione";
             // 
             // comboBox_Selecionar
             // 
@@ -114,24 +119,28 @@
             "Fornecedores",
             "Usuários",
             "Categorias"});
-            this.comboBox_Selecionar.Location = new System.Drawing.Point(111, 101);
+            this.comboBox_Selecionar.Location = new System.Drawing.Point(104, 108);
+            this.comboBox_Selecionar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox_Selecionar.Name = "comboBox_Selecionar";
-            this.comboBox_Selecionar.Size = new System.Drawing.Size(133, 21);
+            this.comboBox_Selecionar.Size = new System.Drawing.Size(154, 24);
             this.comboBox_Selecionar.TabIndex = 64;
             // 
             // Relatorios
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(302, 146);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(352, 180);
             this.Controls.Add(this.comboBox_Selecionar);
             this.Controls.Add(this.label_Selecionar);
             this.Controls.Add(this.toolStrip1);
+            this.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.Window;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Relatorios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Selecione o Relatório Desejado";
+            this.Text = "Selecione o relatório";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

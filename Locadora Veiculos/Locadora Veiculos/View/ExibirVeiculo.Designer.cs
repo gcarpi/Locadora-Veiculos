@@ -98,6 +98,8 @@
             // toolStripButton_Salvar
             // 
             this.toolStripButton_Salvar.AutoSize = false;
+            this.toolStripButton_Salvar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Salvar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Salvar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Salvar.Image")));
             this.toolStripButton_Salvar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Salvar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -117,6 +119,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -152,14 +156,16 @@
             this.toolStripSeparator3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(784, 73);
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.toolStrip1.Size = new System.Drawing.Size(875, 73);
             this.toolStrip1.TabIndex = 65;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // toolStripButton_Excluir
             // 
             this.toolStripButton_Excluir.AutoSize = false;
+            this.toolStripButton_Excluir.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Excluir.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Excluir.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Excluir.Image")));
             this.toolStripButton_Excluir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Excluir.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -179,6 +185,8 @@
             // toolStripButton_Manutencao
             // 
             this.toolStripButton_Manutencao.AutoSize = false;
+            this.toolStripButton_Manutencao.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Manutencao.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Manutencao.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Manutencao.Image")));
             this.toolStripButton_Manutencao.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Manutencao.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -198,6 +206,8 @@
             // toolStripButton_Imprimir
             // 
             this.toolStripButton_Imprimir.AutoSize = false;
+            this.toolStripButton_Imprimir.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Imprimir.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Imprimir.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Imprimir.Image")));
             this.toolStripButton_Imprimir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Imprimir.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -217,12 +227,14 @@
             // toolStripButton_ChecklLists
             // 
             this.toolStripButton_ChecklLists.AutoSize = false;
+            this.toolStripButton_ChecklLists.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_ChecklLists.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_ChecklLists.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_ChecklLists.Image")));
             this.toolStripButton_ChecklLists.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_ChecklLists.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton_ChecklLists.Name = "toolStripButton_ChecklLists";
             this.toolStripButton_ChecklLists.Size = new System.Drawing.Size(80, 70);
-            this.toolStripButton_ChecklLists.Text = "Check List";
+            this.toolStripButton_ChecklLists.Text = "Checklist";
             this.toolStripButton_ChecklLists.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripButton_ChecklLists.Click += new System.EventHandler(this.toolStripButton_CheckLists_Click);
             // 
@@ -234,9 +246,10 @@
             // 
             // textBox_KM
             // 
-            this.textBox_KM.Location = new System.Drawing.Point(300, 253);
+            this.textBox_KM.Location = new System.Drawing.Point(644, 244);
+            this.textBox_KM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_KM.Name = "textBox_KM";
-            this.textBox_KM.Size = new System.Drawing.Size(96, 20);
+            this.textBox_KM.Size = new System.Drawing.Size(76, 27);
             this.textBox_KM.TabIndex = 108;
             // 
             // comboBox_Tanque
@@ -248,30 +261,33 @@
             "2/4",
             "3/4",
             "1/1"});
-            this.comboBox_Tanque.Location = new System.Drawing.Point(588, 283);
+            this.comboBox_Tanque.Location = new System.Drawing.Point(493, 244);
+            this.comboBox_Tanque.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_Tanque.Name = "comboBox_Tanque";
-            this.comboBox_Tanque.Size = new System.Drawing.Size(66, 21);
+            this.comboBox_Tanque.Size = new System.Drawing.Size(103, 27);
             this.comboBox_Tanque.TabIndex = 112;
             // 
             // label_KM
             // 
             this.label_KM.AutoSize = true;
             this.label_KM.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_KM.Location = new System.Drawing.Point(241, 253);
+            this.label_KM.Location = new System.Drawing.Point(607, 247);
+            this.label_KM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_KM.Name = "label_KM";
-            this.label_KM.Size = new System.Drawing.Size(33, 20);
+            this.label_KM.Size = new System.Drawing.Size(29, 20);
             this.label_KM.TabIndex = 127;
-            this.label_KM.Text = "KM:";
+            this.label_KM.Text = "KM";
             // 
             // label_Tanque
             // 
             this.label_Tanque.AutoSize = true;
-            this.label_Tanque.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Tanque.Location = new System.Drawing.Point(456, 284);
+            this.label_Tanque.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Tanque.Location = new System.Drawing.Point(413, 247);
+            this.label_Tanque.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Tanque.Name = "label_Tanque";
-            this.label_Tanque.Size = new System.Drawing.Size(117, 20);
+            this.label_Tanque.Size = new System.Drawing.Size(56, 19);
             this.label_Tanque.TabIndex = 126;
-            this.label_Tanque.Text = "Marcador Tanque:";
+            this.label_Tanque.Text = "Tanque";
             // 
             // comboBox_Combustivel
             // 
@@ -282,20 +298,22 @@
             "Gasolina",
             "Diesel",
             "GNV"});
-            this.comboBox_Combustivel.Location = new System.Drawing.Point(171, 286);
+            this.comboBox_Combustivel.Location = new System.Drawing.Point(106, 239);
+            this.comboBox_Combustivel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_Combustivel.Name = "comboBox_Combustivel";
-            this.comboBox_Combustivel.Size = new System.Drawing.Size(225, 21);
+            this.comboBox_Combustivel.Size = new System.Drawing.Size(299, 27);
             this.comboBox_Combustivel.TabIndex = 111;
             // 
             // label_Combustivel
             // 
             this.label_Combustivel.AutoSize = true;
-            this.label_Combustivel.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Combustivel.Location = new System.Drawing.Point(58, 284);
+            this.label_Combustivel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Combustivel.Location = new System.Drawing.Point(13, 242);
+            this.label_Combustivel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Combustivel.Name = "label_Combustivel";
-            this.label_Combustivel.Size = new System.Drawing.Size(87, 20);
+            this.label_Combustivel.Size = new System.Drawing.Size(89, 19);
             this.label_Combustivel.TabIndex = 125;
-            this.label_Combustivel.Text = "Combustível:";
+            this.label_Combustivel.Text = "Combustível";
             // 
             // toolStrip3
             // 
@@ -303,7 +321,7 @@
             this.toolStrip3.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton_Pesquisar});
-            this.toolStrip3.Location = new System.Drawing.Point(399, 110);
+            this.toolStrip3.Location = new System.Drawing.Point(411, 101);
             this.toolStrip3.Name = "toolStrip3";
             this.toolStrip3.Size = new System.Drawing.Size(26, 25);
             this.toolStrip3.TabIndex = 124;
@@ -327,9 +345,12 @@
             this.groupBox_Caracteristicas.Controls.Add(this.checkBox_ArCondicionado);
             this.groupBox_Caracteristicas.Controls.Add(this.groupBox_Cambio);
             this.groupBox_Caracteristicas.Controls.Add(this.groupBox_Portas);
-            this.groupBox_Caracteristicas.Location = new System.Drawing.Point(62, 339);
+            this.groupBox_Caracteristicas.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox_Caracteristicas.Location = new System.Drawing.Point(13, 346);
+            this.groupBox_Caracteristicas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox_Caracteristicas.Name = "groupBox_Caracteristicas";
-            this.groupBox_Caracteristicas.Size = new System.Drawing.Size(632, 157);
+            this.groupBox_Caracteristicas.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_Caracteristicas.Size = new System.Drawing.Size(846, 248);
             this.groupBox_Caracteristicas.TabIndex = 123;
             this.groupBox_Caracteristicas.TabStop = false;
             this.groupBox_Caracteristicas.Text = "Características";
@@ -338,9 +359,11 @@
             // 
             this.groupBox_Direcao.Controls.Add(this.checkBox_Hidraulica);
             this.groupBox_Direcao.Controls.Add(this.checkBox_Eletrica);
-            this.groupBox_Direcao.Location = new System.Drawing.Point(17, 93);
+            this.groupBox_Direcao.Location = new System.Drawing.Point(23, 136);
+            this.groupBox_Direcao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox_Direcao.Name = "groupBox_Direcao";
-            this.groupBox_Direcao.Size = new System.Drawing.Size(183, 49);
+            this.groupBox_Direcao.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_Direcao.Size = new System.Drawing.Size(244, 72);
             this.groupBox_Direcao.TabIndex = 2;
             this.groupBox_Direcao.TabStop = false;
             this.groupBox_Direcao.Text = "Direção";
@@ -348,9 +371,10 @@
             // checkBox_Hidraulica
             // 
             this.checkBox_Hidraulica.AutoSize = true;
-            this.checkBox_Hidraulica.Location = new System.Drawing.Point(105, 19);
+            this.checkBox_Hidraulica.Location = new System.Drawing.Point(140, 28);
+            this.checkBox_Hidraulica.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox_Hidraulica.Name = "checkBox_Hidraulica";
-            this.checkBox_Hidraulica.Size = new System.Drawing.Size(72, 17);
+            this.checkBox_Hidraulica.Size = new System.Drawing.Size(74, 17);
             this.checkBox_Hidraulica.TabIndex = 21;
             this.checkBox_Hidraulica.TabStop = true;
             this.checkBox_Hidraulica.Text = "Hidráulica";
@@ -359,9 +383,10 @@
             // checkBox_Eletrica
             // 
             this.checkBox_Eletrica.AutoSize = true;
-            this.checkBox_Eletrica.Location = new System.Drawing.Point(19, 19);
+            this.checkBox_Eletrica.Location = new System.Drawing.Point(25, 28);
+            this.checkBox_Eletrica.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox_Eletrica.Name = "checkBox_Eletrica";
-            this.checkBox_Eletrica.Size = new System.Drawing.Size(60, 17);
+            this.checkBox_Eletrica.Size = new System.Drawing.Size(61, 17);
             this.checkBox_Eletrica.TabIndex = 20;
             this.checkBox_Eletrica.TabStop = true;
             this.checkBox_Eletrica.Text = "Elétrica";
@@ -370,9 +395,10 @@
             // checkBox_Alarme
             // 
             this.checkBox_Alarme.AutoSize = true;
-            this.checkBox_Alarme.Location = new System.Drawing.Point(17, 42);
+            this.checkBox_Alarme.Location = new System.Drawing.Point(23, 61);
+            this.checkBox_Alarme.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox_Alarme.Name = "checkBox_Alarme";
-            this.checkBox_Alarme.Size = new System.Drawing.Size(58, 17);
+            this.checkBox_Alarme.Size = new System.Drawing.Size(60, 17);
             this.checkBox_Alarme.TabIndex = 17;
             this.checkBox_Alarme.Text = "Alarme";
             this.checkBox_Alarme.UseVisualStyleBackColor = true;
@@ -380,9 +406,10 @@
             // checkBox_Trava
             // 
             this.checkBox_Trava.AutoSize = true;
-            this.checkBox_Trava.Location = new System.Drawing.Point(246, 42);
+            this.checkBox_Trava.Location = new System.Drawing.Point(328, 61);
+            this.checkBox_Trava.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox_Trava.Name = "checkBox_Trava";
-            this.checkBox_Trava.Size = new System.Drawing.Size(92, 17);
+            this.checkBox_Trava.Size = new System.Drawing.Size(89, 17);
             this.checkBox_Trava.TabIndex = 19;
             this.checkBox_Trava.Text = "Trava Elétrica";
             this.checkBox_Trava.UseVisualStyleBackColor = true;
@@ -390,9 +417,10 @@
             // checkBox_Vidro
             // 
             this.checkBox_Vidro.AutoSize = true;
-            this.checkBox_Vidro.Location = new System.Drawing.Point(371, 42);
+            this.checkBox_Vidro.Location = new System.Drawing.Point(495, 61);
+            this.checkBox_Vidro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox_Vidro.Name = "checkBox_Vidro";
-            this.checkBox_Vidro.Size = new System.Drawing.Size(88, 17);
+            this.checkBox_Vidro.Size = new System.Drawing.Size(89, 17);
             this.checkBox_Vidro.TabIndex = 19;
             this.checkBox_Vidro.Text = "Vidro Elétrico";
             this.checkBox_Vidro.UseVisualStyleBackColor = true;
@@ -400,9 +428,10 @@
             // checkBox_ArCondicionado
             // 
             this.checkBox_ArCondicionado.AutoSize = true;
-            this.checkBox_ArCondicionado.Location = new System.Drawing.Point(108, 42);
+            this.checkBox_ArCondicionado.Location = new System.Drawing.Point(144, 61);
+            this.checkBox_ArCondicionado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox_ArCondicionado.Name = "checkBox_ArCondicionado";
-            this.checkBox_ArCondicionado.Size = new System.Drawing.Size(104, 17);
+            this.checkBox_ArCondicionado.Size = new System.Drawing.Size(103, 17);
             this.checkBox_ArCondicionado.TabIndex = 18;
             this.checkBox_ArCondicionado.Text = "Ar Condicionado";
             this.checkBox_ArCondicionado.UseVisualStyleBackColor = true;
@@ -411,9 +440,11 @@
             // 
             this.groupBox_Cambio.Controls.Add(this.checkBox_Manual);
             this.groupBox_Cambio.Controls.Add(this.checkBox_Automatico);
-            this.groupBox_Cambio.Location = new System.Drawing.Point(225, 93);
+            this.groupBox_Cambio.Location = new System.Drawing.Point(300, 136);
+            this.groupBox_Cambio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox_Cambio.Name = "groupBox_Cambio";
-            this.groupBox_Cambio.Size = new System.Drawing.Size(183, 49);
+            this.groupBox_Cambio.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_Cambio.Size = new System.Drawing.Size(244, 72);
             this.groupBox_Cambio.TabIndex = 1;
             this.groupBox_Cambio.TabStop = false;
             this.groupBox_Cambio.Text = "Câmbio";
@@ -421,9 +452,10 @@
             // checkBox_Manual
             // 
             this.checkBox_Manual.AutoSize = true;
-            this.checkBox_Manual.Location = new System.Drawing.Point(105, 19);
+            this.checkBox_Manual.Location = new System.Drawing.Point(140, 28);
+            this.checkBox_Manual.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox_Manual.Name = "checkBox_Manual";
-            this.checkBox_Manual.Size = new System.Drawing.Size(60, 17);
+            this.checkBox_Manual.Size = new System.Drawing.Size(61, 17);
             this.checkBox_Manual.TabIndex = 23;
             this.checkBox_Manual.TabStop = true;
             this.checkBox_Manual.Text = "Manual";
@@ -432,9 +464,10 @@
             // checkBox_Automatico
             // 
             this.checkBox_Automatico.AutoSize = true;
-            this.checkBox_Automatico.Location = new System.Drawing.Point(19, 19);
+            this.checkBox_Automatico.Location = new System.Drawing.Point(25, 28);
+            this.checkBox_Automatico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox_Automatico.Name = "checkBox_Automatico";
-            this.checkBox_Automatico.Size = new System.Drawing.Size(78, 17);
+            this.checkBox_Automatico.Size = new System.Drawing.Size(79, 17);
             this.checkBox_Automatico.TabIndex = 22;
             this.checkBox_Automatico.TabStop = true;
             this.checkBox_Automatico.Text = "Automático";
@@ -444,9 +477,11 @@
             // 
             this.groupBox_Portas.Controls.Add(this.checkBox_4portas);
             this.groupBox_Portas.Controls.Add(this.checkBox_2portas);
-            this.groupBox_Portas.Location = new System.Drawing.Point(433, 93);
+            this.groupBox_Portas.Location = new System.Drawing.Point(577, 136);
+            this.groupBox_Portas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox_Portas.Name = "groupBox_Portas";
-            this.groupBox_Portas.Size = new System.Drawing.Size(183, 52);
+            this.groupBox_Portas.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_Portas.Size = new System.Drawing.Size(244, 76);
             this.groupBox_Portas.TabIndex = 0;
             this.groupBox_Portas.TabStop = false;
             this.groupBox_Portas.Text = "Portas";
@@ -454,7 +489,8 @@
             // checkBox_4portas
             // 
             this.checkBox_4portas.AutoSize = true;
-            this.checkBox_4portas.Location = new System.Drawing.Point(95, 20);
+            this.checkBox_4portas.Location = new System.Drawing.Point(127, 29);
+            this.checkBox_4portas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox_4portas.Name = "checkBox_4portas";
             this.checkBox_4portas.Size = new System.Drawing.Size(64, 17);
             this.checkBox_4portas.TabIndex = 25;
@@ -465,7 +501,8 @@
             // checkBox_2portas
             // 
             this.checkBox_2portas.AutoSize = true;
-            this.checkBox_2portas.Location = new System.Drawing.Point(25, 20);
+            this.checkBox_2portas.Location = new System.Drawing.Point(33, 29);
+            this.checkBox_2portas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox_2portas.Name = "checkBox_2portas";
             this.checkBox_2portas.Size = new System.Drawing.Size(64, 17);
             this.checkBox_2portas.TabIndex = 24;
@@ -480,20 +517,22 @@
             "A",
             "B",
             "C"});
-            this.comboBox_Fornecedores.Location = new System.Drawing.Point(171, 112);
+            this.comboBox_Fornecedores.Location = new System.Drawing.Point(106, 98);
+            this.comboBox_Fornecedores.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_Fornecedores.Name = "comboBox_Fornecedores";
-            this.comboBox_Fornecedores.Size = new System.Drawing.Size(225, 21);
+            this.comboBox_Fornecedores.Size = new System.Drawing.Size(299, 27);
             this.comboBox_Fornecedores.TabIndex = 99;
             // 
             // label_Fornecedor
             // 
             this.label_Fornecedor.AutoSize = true;
-            this.label_Fornecedor.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Fornecedor.Location = new System.Drawing.Point(58, 112);
+            this.label_Fornecedor.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Fornecedor.Location = new System.Drawing.Point(21, 101);
+            this.label_Fornecedor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Fornecedor.Name = "label_Fornecedor";
-            this.label_Fornecedor.Size = new System.Drawing.Size(83, 20);
+            this.label_Fornecedor.Size = new System.Drawing.Size(81, 19);
             this.label_Fornecedor.TabIndex = 122;
-            this.label_Fornecedor.Text = "Fornecedor:";
+            this.label_Fornecedor.Text = "Fornecedor";
             // 
             // comboBox_Categorias
             // 
@@ -502,24 +541,27 @@
             "A",
             "B",
             "C"});
-            this.comboBox_Categorias.Location = new System.Drawing.Point(529, 110);
+            this.comboBox_Categorias.Location = new System.Drawing.Point(493, 136);
+            this.comboBox_Categorias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_Categorias.Name = "comboBox_Categorias";
-            this.comboBox_Categorias.Size = new System.Drawing.Size(64, 21);
+            this.comboBox_Categorias.Size = new System.Drawing.Size(227, 27);
             this.comboBox_Categorias.TabIndex = 100;
             // 
             // label_Categoria
             // 
             this.label_Categoria.AutoSize = true;
-            this.label_Categoria.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Categoria.Location = new System.Drawing.Point(453, 109);
+            this.label_Categoria.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Categoria.Location = new System.Drawing.Point(413, 142);
+            this.label_Categoria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Categoria.Name = "label_Categoria";
-            this.label_Categoria.Size = new System.Drawing.Size(70, 20);
+            this.label_Categoria.Size = new System.Drawing.Size(72, 19);
             this.label_Categoria.TabIndex = 121;
-            this.label_Categoria.Text = "Categoria:";
+            this.label_Categoria.Text = "Categoria";
             // 
             // numeric_AnoLicenciamento
             // 
-            this.numeric_AnoLicenciamento.Location = new System.Drawing.Point(661, 249);
+            this.numeric_AnoLicenciamento.Location = new System.Drawing.Point(632, 311);
+            this.numeric_AnoLicenciamento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numeric_AnoLicenciamento.Maximum = new decimal(new int[] {
             2999,
             0,
@@ -531,7 +573,7 @@
             0,
             0});
             this.numeric_AnoLicenciamento.Name = "numeric_AnoLicenciamento";
-            this.numeric_AnoLicenciamento.Size = new System.Drawing.Size(56, 20);
+            this.numeric_AnoLicenciamento.Size = new System.Drawing.Size(75, 27);
             this.numeric_AnoLicenciamento.TabIndex = 110;
             this.numeric_AnoLicenciamento.Value = new decimal(new int[] {
             2015,
@@ -555,92 +597,103 @@
             "Outubro",
             "Novembro",
             "Dezembro"});
-            this.comboBox_MesLicenciamento.Location = new System.Drawing.Point(588, 249);
+            this.comboBox_MesLicenciamento.Location = new System.Drawing.Point(428, 311);
+            this.comboBox_MesLicenciamento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_MesLicenciamento.Name = "comboBox_MesLicenciamento";
-            this.comboBox_MesLicenciamento.Size = new System.Drawing.Size(67, 21);
+            this.comboBox_MesLicenciamento.Size = new System.Drawing.Size(168, 27);
             this.comboBox_MesLicenciamento.TabIndex = 109;
             // 
             // label_DataLicenciamento
             // 
             this.label_DataLicenciamento.AutoSize = true;
-            this.label_DataLicenciamento.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_DataLicenciamento.Location = new System.Drawing.Point(453, 250);
+            this.label_DataLicenciamento.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_DataLicenciamento.Location = new System.Drawing.Point(282, 314);
+            this.label_DataLicenciamento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_DataLicenciamento.Name = "label_DataLicenciamento";
-            this.label_DataLicenciamento.Size = new System.Drawing.Size(129, 20);
+            this.label_DataLicenciamento.Size = new System.Drawing.Size(138, 19);
             this.label_DataLicenciamento.TabIndex = 120;
-            this.label_DataLicenciamento.Text = "Data Licenciamento:";
+            this.label_DataLicenciamento.Text = "Data Licenciamento";
             // 
             // textBox_RENAVAM
             // 
-            this.textBox_RENAVAM.Location = new System.Drawing.Point(528, 146);
+            this.textBox_RENAVAM.Location = new System.Drawing.Point(106, 274);
+            this.textBox_RENAVAM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_RENAVAM.Name = "textBox_RENAVAM";
-            this.textBox_RENAVAM.Size = new System.Drawing.Size(189, 20);
+            this.textBox_RENAVAM.Size = new System.Drawing.Size(299, 27);
             this.textBox_RENAVAM.TabIndex = 102;
             // 
             // label_RENAVAM
             // 
             this.label_RENAVAM.AutoSize = true;
-            this.label_RENAVAM.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_RENAVAM.Location = new System.Drawing.Point(453, 146);
+            this.label_RENAVAM.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_RENAVAM.Location = new System.Drawing.Point(29, 277);
+            this.label_RENAVAM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_RENAVAM.Name = "label_RENAVAM";
-            this.label_RENAVAM.Size = new System.Drawing.Size(69, 20);
+            this.label_RENAVAM.Size = new System.Drawing.Size(69, 19);
             this.label_RENAVAM.TabIndex = 119;
-            this.label_RENAVAM.Text = "Renavam:";
+            this.label_RENAVAM.Text = "Renavam";
             // 
             // textBox_Placa
             // 
-            this.textBox_Placa.Location = new System.Drawing.Point(528, 182);
+            this.textBox_Placa.Location = new System.Drawing.Point(106, 311);
+            this.textBox_Placa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Placa.Name = "textBox_Placa";
-            this.textBox_Placa.Size = new System.Drawing.Size(189, 20);
+            this.textBox_Placa.Size = new System.Drawing.Size(150, 27);
             this.textBox_Placa.TabIndex = 104;
             // 
             // label_Chassi
             // 
             this.label_Chassi.AutoSize = true;
-            this.label_Chassi.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Chassi.Location = new System.Drawing.Point(453, 217);
+            this.label_Chassi.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Chassi.Location = new System.Drawing.Point(413, 175);
+            this.label_Chassi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Chassi.Name = "label_Chassi";
-            this.label_Chassi.Size = new System.Drawing.Size(53, 20);
+            this.label_Chassi.Size = new System.Drawing.Size(52, 19);
             this.label_Chassi.TabIndex = 118;
-            this.label_Chassi.Text = "Chassi:";
+            this.label_Chassi.Text = "Chassi";
             // 
             // textBox_Chassi
             // 
-            this.textBox_Chassi.Location = new System.Drawing.Point(528, 215);
+            this.textBox_Chassi.Location = new System.Drawing.Point(493, 172);
+            this.textBox_Chassi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Chassi.Name = "textBox_Chassi";
-            this.textBox_Chassi.Size = new System.Drawing.Size(189, 20);
+            this.textBox_Chassi.Size = new System.Drawing.Size(227, 27);
             this.textBox_Chassi.TabIndex = 106;
             // 
             // label_Placa
             // 
             this.label_Placa.AutoSize = true;
-            this.label_Placa.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Placa.Location = new System.Drawing.Point(453, 182);
+            this.label_Placa.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Placa.Location = new System.Drawing.Point(52, 314);
+            this.label_Placa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Placa.Name = "label_Placa";
-            this.label_Placa.Size = new System.Drawing.Size(46, 20);
+            this.label_Placa.Size = new System.Drawing.Size(44, 19);
             this.label_Placa.TabIndex = 117;
-            this.label_Placa.Text = "Placa:";
+            this.label_Placa.Text = "Placa";
             // 
             // textBox_Cor
             // 
-            this.textBox_Cor.Location = new System.Drawing.Point(171, 217);
+            this.textBox_Cor.Location = new System.Drawing.Point(106, 204);
+            this.textBox_Cor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Cor.Name = "textBox_Cor";
-            this.textBox_Cor.Size = new System.Drawing.Size(225, 20);
+            this.textBox_Cor.Size = new System.Drawing.Size(299, 27);
             this.textBox_Cor.TabIndex = 105;
             // 
             // label_Cor
             // 
             this.label_Cor.AutoSize = true;
-            this.label_Cor.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Cor.Location = new System.Drawing.Point(58, 215);
+            this.label_Cor.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Cor.Location = new System.Drawing.Point(67, 207);
+            this.label_Cor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Cor.Name = "label_Cor";
-            this.label_Cor.Size = new System.Drawing.Size(34, 20);
+            this.label_Cor.Size = new System.Drawing.Size(31, 19);
             this.label_Cor.TabIndex = 116;
-            this.label_Cor.Text = "Cor:";
+            this.label_Cor.Text = "Cor";
             // 
             // numeric_AnoFabricacao
             // 
-            this.numeric_AnoFabricacao.Location = new System.Drawing.Point(171, 253);
+            this.numeric_AnoFabricacao.Location = new System.Drawing.Point(545, 210);
+            this.numeric_AnoFabricacao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numeric_AnoFabricacao.Maximum = new decimal(new int[] {
             2500,
             0,
@@ -652,7 +705,7 @@
             0,
             0});
             this.numeric_AnoFabricacao.Name = "numeric_AnoFabricacao";
-            this.numeric_AnoFabricacao.Size = new System.Drawing.Size(51, 20);
+            this.numeric_AnoFabricacao.Size = new System.Drawing.Size(68, 27);
             this.numeric_AnoFabricacao.TabIndex = 107;
             this.numeric_AnoFabricacao.Value = new decimal(new int[] {
             1990,
@@ -663,53 +716,58 @@
             // label_AnoFabricacao
             // 
             this.label_AnoFabricacao.AutoSize = true;
-            this.label_AnoFabricacao.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_AnoFabricacao.Location = new System.Drawing.Point(58, 253);
+            this.label_AnoFabricacao.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_AnoFabricacao.Location = new System.Drawing.Point(413, 212);
+            this.label_AnoFabricacao.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_AnoFabricacao.Name = "label_AnoFabricacao";
-            this.label_AnoFabricacao.Size = new System.Drawing.Size(107, 20);
+            this.label_AnoFabricacao.Size = new System.Drawing.Size(126, 19);
             this.label_AnoFabricacao.TabIndex = 115;
-            this.label_AnoFabricacao.Text = "Ano Fabricação:";
+            this.label_AnoFabricacao.Text = "Ano de fabricação";
             // 
             // textBox_Modelo
             // 
-            this.textBox_Modelo.Location = new System.Drawing.Point(171, 182);
+            this.textBox_Modelo.Location = new System.Drawing.Point(106, 169);
+            this.textBox_Modelo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Modelo.Name = "textBox_Modelo";
-            this.textBox_Modelo.Size = new System.Drawing.Size(225, 20);
+            this.textBox_Modelo.Size = new System.Drawing.Size(299, 27);
             this.textBox_Modelo.TabIndex = 103;
             // 
             // label_Modelo
             // 
             this.label_Modelo.AutoSize = true;
-            this.label_Modelo.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Modelo.Location = new System.Drawing.Point(58, 182);
+            this.label_Modelo.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Modelo.Location = new System.Drawing.Point(44, 172);
+            this.label_Modelo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Modelo.Name = "label_Modelo";
-            this.label_Modelo.Size = new System.Drawing.Size(59, 20);
+            this.label_Modelo.Size = new System.Drawing.Size(58, 19);
             this.label_Modelo.TabIndex = 114;
-            this.label_Modelo.Text = "Modelo:";
+            this.label_Modelo.Text = "Modelo";
             // 
             // textBox_Marca
             // 
-            this.textBox_Marca.Location = new System.Drawing.Point(171, 146);
+            this.textBox_Marca.Location = new System.Drawing.Point(106, 134);
+            this.textBox_Marca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Marca.Name = "textBox_Marca";
-            this.textBox_Marca.Size = new System.Drawing.Size(225, 20);
+            this.textBox_Marca.Size = new System.Drawing.Size(299, 27);
             this.textBox_Marca.TabIndex = 101;
             // 
             // label_Marca
             // 
             this.label_Marca.AutoSize = true;
-            this.label_Marca.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Marca.Location = new System.Drawing.Point(58, 146);
+            this.label_Marca.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Marca.Location = new System.Drawing.Point(52, 136);
+            this.label_Marca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Marca.Name = "label_Marca";
-            this.label_Marca.Size = new System.Drawing.Size(49, 20);
+            this.label_Marca.Size = new System.Drawing.Size(50, 19);
             this.label_Marca.TabIndex = 113;
-            this.label_Marca.Text = "Marca:";
+            this.label_Marca.Text = "Marca";
             // 
             // ExibirVeiculo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(784, 562);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(875, 637);
             this.Controls.Add(this.textBox_KM);
             this.Controls.Add(this.comboBox_Tanque);
             this.Controls.Add(this.label_KM);
@@ -740,7 +798,9 @@
             this.Controls.Add(this.textBox_Marca);
             this.Controls.Add(this.label_Marca);
             this.Controls.Add(this.toolStrip1);
+            this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ExibirVeiculo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Veículo";

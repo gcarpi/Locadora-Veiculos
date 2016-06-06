@@ -60,7 +60,7 @@
             this.toolStripSeparator3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(368, 73);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
@@ -68,6 +68,8 @@
             // toolStripButton_Emitir
             // 
             this.toolStripButton_Emitir.AutoSize = false;
+            this.toolStripButton_Emitir.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Emitir.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Emitir.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Emitir.Image")));
             this.toolStripButton_Emitir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Emitir.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -87,6 +89,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -106,12 +110,12 @@
             // label_Status
             // 
             this.label_Status.AutoSize = true;
-            this.label_Status.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Status.Location = new System.Drawing.Point(12, 106);
+            this.label_Status.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Status.Location = new System.Drawing.Point(12, 107);
             this.label_Status.Name = "label_Status";
-            this.label_Status.Size = new System.Drawing.Size(49, 20);
+            this.label_Status.Size = new System.Drawing.Size(49, 19);
             this.label_Status.TabIndex = 66;
-            this.label_Status.Text = "Status:";
+            this.label_Status.Text = "Status";
             // 
             // comboBox_Status
             // 
@@ -121,20 +125,20 @@
             "Alugados",
             "Disponíveis",
             "Manutenção"});
-            this.comboBox_Status.Location = new System.Drawing.Point(87, 108);
+            this.comboBox_Status.Location = new System.Drawing.Point(67, 108);
             this.comboBox_Status.Name = "comboBox_Status";
-            this.comboBox_Status.Size = new System.Drawing.Size(139, 21);
+            this.comboBox_Status.Size = new System.Drawing.Size(145, 21);
             this.comboBox_Status.TabIndex = 65;
             // 
             // label_Filtro
             // 
             this.label_Filtro.AutoSize = true;
-            this.label_Filtro.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Filtro.Location = new System.Drawing.Point(12, 154);
+            this.label_Filtro.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Filtro.Location = new System.Drawing.Point(12, 159);
             this.label_Filtro.Name = "label_Filtro";
-            this.label_Filtro.Size = new System.Drawing.Size(69, 20);
+            this.label_Filtro.Size = new System.Drawing.Size(72, 19);
             this.label_Filtro.TabIndex = 67;
-            this.label_Filtro.Text = "Filtrar por:";
+            this.label_Filtro.Text = "Filtrar por";
             // 
             // comboBox_Filtro
             // 
@@ -147,9 +151,9 @@
             "Marca",
             "Modelo",
             "Fabricante"});
-            this.comboBox_Filtro.Location = new System.Drawing.Point(87, 154);
+            this.comboBox_Filtro.Location = new System.Drawing.Point(90, 160);
             this.comboBox_Filtro.Name = "comboBox_Filtro";
-            this.comboBox_Filtro.Size = new System.Drawing.Size(139, 21);
+            this.comboBox_Filtro.Size = new System.Drawing.Size(122, 21);
             this.comboBox_Filtro.TabIndex = 68;
             // 
             // groupBox_Periodo
@@ -160,6 +164,7 @@
             this.groupBox_Periodo.Controls.Add(this.label_DeData);
             this.groupBox_Periodo.Controls.Add(this.dateTimePicker_AteData);
             this.groupBox_Periodo.Controls.Add(this.dateTimePicker_DeData);
+            this.groupBox_Periodo.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox_Periodo.Location = new System.Drawing.Point(16, 195);
             this.groupBox_Periodo.Name = "groupBox_Periodo";
             this.groupBox_Periodo.Size = new System.Drawing.Size(340, 100);
@@ -184,7 +189,7 @@
             this.radioButton_Todos.Checked = true;
             this.radioButton_Todos.Location = new System.Drawing.Point(10, 19);
             this.radioButton_Todos.Name = "radioButton_Todos";
-            this.radioButton_Todos.Size = new System.Drawing.Size(55, 17);
+            this.radioButton_Todos.Size = new System.Drawing.Size(52, 17);
             this.radioButton_Todos.TabIndex = 79;
             this.radioButton_Todos.TabStop = true;
             this.radioButton_Todos.Text = "Todos";
@@ -196,7 +201,7 @@
             this.label_AteData.AutoSize = true;
             this.label_AteData.Enabled = false;
             this.label_AteData.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_AteData.Location = new System.Drawing.Point(84, 74);
+            this.label_AteData.Location = new System.Drawing.Point(3, 74);
             this.label_AteData.Name = "label_AteData";
             this.label_AteData.Size = new System.Drawing.Size(29, 20);
             this.label_AteData.TabIndex = 78;
@@ -207,7 +212,7 @@
             this.label_DeData.AutoSize = true;
             this.label_DeData.Enabled = false;
             this.label_DeData.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_DeData.Location = new System.Drawing.Point(84, 48);
+            this.label_DeData.Location = new System.Drawing.Point(6, 49);
             this.label_DeData.Name = "label_DeData";
             this.label_DeData.Size = new System.Drawing.Size(26, 20);
             this.label_DeData.TabIndex = 77;
@@ -216,24 +221,24 @@
             // dateTimePicker_AteData
             // 
             this.dateTimePicker_AteData.Enabled = false;
-            this.dateTimePicker_AteData.Location = new System.Drawing.Point(119, 74);
+            this.dateTimePicker_AteData.Location = new System.Drawing.Point(38, 74);
             this.dateTimePicker_AteData.Name = "dateTimePicker_AteData";
-            this.dateTimePicker_AteData.Size = new System.Drawing.Size(215, 20);
+            this.dateTimePicker_AteData.Size = new System.Drawing.Size(225, 21);
             this.dateTimePicker_AteData.TabIndex = 76;
             // 
             // dateTimePicker_DeData
             // 
             this.dateTimePicker_DeData.Enabled = false;
-            this.dateTimePicker_DeData.Location = new System.Drawing.Point(119, 48);
+            this.dateTimePicker_DeData.Location = new System.Drawing.Point(38, 48);
             this.dateTimePicker_DeData.Name = "dateTimePicker_DeData";
-            this.dateTimePicker_DeData.Size = new System.Drawing.Size(215, 20);
+            this.dateTimePicker_DeData.Size = new System.Drawing.Size(225, 21);
             this.dateTimePicker_DeData.TabIndex = 75;
             // 
             // RelatorioVeiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(368, 307);
             this.Controls.Add(this.groupBox_Periodo);
             this.Controls.Add(this.comboBox_Filtro);

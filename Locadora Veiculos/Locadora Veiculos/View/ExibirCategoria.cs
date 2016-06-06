@@ -77,5 +77,15 @@ namespace Locadora_Veiculos
                 new CategoriaDAO().Remover(c);
             }
         }
+
+        private void textBox_Valor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_Nome_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

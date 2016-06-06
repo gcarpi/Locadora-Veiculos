@@ -56,7 +56,7 @@
             this.toolStripSeparator3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(404, 73);
             this.toolStrip1.TabIndex = 96;
             this.toolStrip1.Text = "toolStrip1";
@@ -64,6 +64,8 @@
             // toolStripButton_Salvar
             // 
             this.toolStripButton_Salvar.AutoSize = false;
+            this.toolStripButton_Salvar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Salvar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Salvar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Salvar.Image")));
             this.toolStripButton_Salvar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Salvar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -83,6 +85,8 @@
             // toolStripButton_Excluir
             // 
             this.toolStripButton_Excluir.AutoSize = false;
+            this.toolStripButton_Excluir.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Excluir.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Excluir.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Excluir.Image")));
             this.toolStripButton_Excluir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Excluir.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -102,6 +106,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -125,39 +131,41 @@
             this.textBox_Valor.Size = new System.Drawing.Size(79, 20);
             this.textBox_Valor.TabIndex = 122;
             this.textBox_Valor.Text = "R$";
+            this.textBox_Valor.TextChanged += new System.EventHandler(this.textBox_Valor_TextChanged);
             // 
             // label_Valor
             // 
             this.label_Valor.AutoSize = true;
-            this.label_Valor.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Valor.Location = new System.Drawing.Point(18, 123);
+            this.label_Valor.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Valor.Location = new System.Drawing.Point(18, 124);
             this.label_Valor.Name = "label_Valor";
-            this.label_Valor.Size = new System.Drawing.Size(44, 20);
+            this.label_Valor.Size = new System.Drawing.Size(42, 19);
             this.label_Valor.TabIndex = 121;
-            this.label_Valor.Text = "Valor:";
+            this.label_Valor.Text = "Valor";
             // 
             // textBox_Nome
             // 
             this.textBox_Nome.Location = new System.Drawing.Point(68, 91);
             this.textBox_Nome.Name = "textBox_Nome";
-            this.textBox_Nome.Size = new System.Drawing.Size(311, 20);
+            this.textBox_Nome.Size = new System.Drawing.Size(269, 20);
             this.textBox_Nome.TabIndex = 119;
             // 
             // label_Nome
             // 
             this.label_Nome.AutoSize = true;
-            this.label_Nome.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Nome.Location = new System.Drawing.Point(13, 91);
+            this.label_Nome.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Nome.Location = new System.Drawing.Point(13, 90);
             this.label_Nome.Name = "label_Nome";
-            this.label_Nome.Size = new System.Drawing.Size(49, 20);
+            this.label_Nome.Size = new System.Drawing.Size(47, 19);
             this.label_Nome.TabIndex = 120;
-            this.label_Nome.Text = "Nome:";
+            this.label_Nome.Text = "Nome";
+            this.label_Nome.Click += new System.EventHandler(this.label_Nome_Click);
             // 
             // ExibirCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(404, 172);
             this.Controls.Add(this.textBox_Valor);
             this.Controls.Add(this.label_Valor);

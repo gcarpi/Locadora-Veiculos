@@ -33,5 +33,10 @@ namespace Locadora_Veiculos
         {
             this.Close();
         }
+
+        private void button_Pesquisar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

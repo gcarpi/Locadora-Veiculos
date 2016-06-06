@@ -90,14 +90,16 @@
             this.toolStripSeparator9});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(972, 73);
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.toolStrip1.Size = new System.Drawing.Size(1083, 73);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // toolStripButton_Locacao
             // 
             this.toolStripButton_Locacao.AutoSize = false;
+            this.toolStripButton_Locacao.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Locacao.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Locacao.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Locacao.Image")));
             this.toolStripButton_Locacao.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Locacao.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -116,6 +118,8 @@
             // toolStripButton_Pedidos
             // 
             this.toolStripButton_Pedidos.AutoSize = false;
+            this.toolStripButton_Pedidos.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Pedidos.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Pedidos.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Pedidos.Image")));
             this.toolStripButton_Pedidos.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Pedidos.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -134,6 +138,8 @@
             // toolStripButton_Clientes
             // 
             this.toolStripButton_Clientes.AutoSize = false;
+            this.toolStripButton_Clientes.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Clientes.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Clientes.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Clientes.Image")));
             this.toolStripButton_Clientes.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.toolStripButton_Clientes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -153,6 +159,8 @@
             // toolStripButton_Veiculos
             // 
             this.toolStripButton_Veiculos.AutoSize = false;
+            this.toolStripButton_Veiculos.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Veiculos.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Veiculos.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Veiculos.Image")));
             this.toolStripButton_Veiculos.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Veiculos.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -172,6 +180,8 @@
             // toolStripButton_Fornecedores
             // 
             this.toolStripButton_Fornecedores.AutoSize = false;
+            this.toolStripButton_Fornecedores.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Fornecedores.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Fornecedores.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Fornecedores.Image")));
             this.toolStripButton_Fornecedores.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Fornecedores.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -190,6 +200,8 @@
             // toolStripButton_Categorias
             // 
             this.toolStripButton_Categorias.AutoSize = false;
+            this.toolStripButton_Categorias.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Categorias.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Categorias.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Categorias.Image")));
             this.toolStripButton_Categorias.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Categorias.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -208,6 +220,8 @@
             // toolStripButton_Usuarios
             // 
             this.toolStripButton_Usuarios.AutoSize = false;
+            this.toolStripButton_Usuarios.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Usuarios.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Usuarios.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Usuarios.Image")));
             this.toolStripButton_Usuarios.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Usuarios.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -226,6 +240,8 @@
             // toolStripButton_Relatorios
             // 
             this.toolStripButton_Relatorios.AutoSize = false;
+            this.toolStripButton_Relatorios.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Relatorios.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Relatorios.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Relatorios.Image")));
             this.toolStripButton_Relatorios.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Relatorios.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -245,6 +261,8 @@
             // toolStripButton_TrocarUsuario
             // 
             this.toolStripButton_TrocarUsuario.AutoSize = false;
+            this.toolStripButton_TrocarUsuario.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_TrocarUsuario.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_TrocarUsuario.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_TrocarUsuario.Image")));
             this.toolStripButton_TrocarUsuario.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_TrocarUsuario.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -263,6 +281,8 @@
             // toolStripButton_Backup
             // 
             this.toolStripButton_Backup.AutoSize = false;
+            this.toolStripButton_Backup.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Backup.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Backup.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Backup.Image")));
             this.toolStripButton_Backup.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Backup.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -280,6 +300,8 @@
             // toolStripButton_Sobre
             // 
             this.toolStripButton_Sobre.AutoSize = false;
+            this.toolStripButton_Sobre.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sobre.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sobre.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sobre.Image")));
             this.toolStripButton_Sobre.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sobre.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -298,6 +320,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -323,10 +347,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(972, 498);
+            this.ClientSize = new System.Drawing.Size(1083, 498);
             this.Controls.Add(this.toolStrip1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

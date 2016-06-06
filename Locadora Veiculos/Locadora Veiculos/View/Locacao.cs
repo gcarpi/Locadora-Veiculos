@@ -18,7 +18,7 @@ namespace Locadora_Veiculos
         }
         private void toolStripButton_Confirmar_Click(object sender, EventArgs e)
         {
-            DialogResult result1 = MessageBox.Show("Deseja efetuara a locação?",
+            DialogResult result1 = MessageBox.Show("Deseja efetuar a locação?",
             "Efetuar Nova Locação",
             MessageBoxButtons.OKCancel,
             MessageBoxIcon.Question);
@@ -88,6 +88,11 @@ namespace Locadora_Veiculos
             {
 
             }
+        }
+
+        private void comboBox_TipoRetirada_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
     }

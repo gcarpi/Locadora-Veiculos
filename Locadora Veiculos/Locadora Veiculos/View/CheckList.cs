@@ -63,5 +63,10 @@ namespace Locadora_Veiculos
 
             }
         }
+
+        private void textBox_KM_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

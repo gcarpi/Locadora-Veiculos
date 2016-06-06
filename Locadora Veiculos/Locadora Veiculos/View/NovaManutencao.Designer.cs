@@ -64,7 +64,7 @@
             this.toolStrip3.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton_PesquisarF});
-            this.toolStrip3.Location = new System.Drawing.Point(459, 93);
+            this.toolStrip3.Location = new System.Drawing.Point(409, 97);
             this.toolStrip3.Name = "toolStrip3";
             this.toolStrip3.Size = new System.Drawing.Size(26, 25);
             this.toolStrip3.TabIndex = 87;
@@ -72,14 +72,16 @@
             // 
             // dateTimePicker_EntregaPrevista
             // 
-            this.dateTimePicker_EntregaPrevista.Location = new System.Drawing.Point(132, 167);
+            this.dateTimePicker_EntregaPrevista.Location = new System.Drawing.Point(77, 167);
             this.dateTimePicker_EntregaPrevista.Name = "dateTimePicker_EntregaPrevista";
-            this.dateTimePicker_EntregaPrevista.Size = new System.Drawing.Size(230, 20);
+            this.dateTimePicker_EntregaPrevista.Size = new System.Drawing.Size(252, 20);
             this.dateTimePicker_EntregaPrevista.TabIndex = 84;
             // 
             // toolStripButton_Confirmar
             // 
             this.toolStripButton_Confirmar.AutoSize = false;
+            this.toolStripButton_Confirmar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Confirmar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Confirmar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Confirmar.Image")));
             this.toolStripButton_Confirmar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Confirmar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -98,6 +100,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -110,30 +114,30 @@
             // 
             // dateTimePicker_Retirada
             // 
-            this.dateTimePicker_Retirada.Location = new System.Drawing.Point(80, 132);
+            this.dateTimePicker_Retirada.Location = new System.Drawing.Point(77, 141);
             this.dateTimePicker_Retirada.Name = "dateTimePicker_Retirada";
-            this.dateTimePicker_Retirada.Size = new System.Drawing.Size(230, 20);
+            this.dateTimePicker_Retirada.Size = new System.Drawing.Size(252, 20);
             this.dateTimePicker_Retirada.TabIndex = 83;
             // 
             // label_EntregaPrevista
             // 
             this.label_EntregaPrevista.AutoSize = true;
-            this.label_EntregaPrevista.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_EntregaPrevista.Location = new System.Drawing.Point(15, 167);
+            this.label_EntregaPrevista.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_EntregaPrevista.Location = new System.Drawing.Point(12, 167);
             this.label_EntregaPrevista.Name = "label_EntregaPrevista";
-            this.label_EntregaPrevista.Size = new System.Drawing.Size(111, 20);
+            this.label_EntregaPrevista.Size = new System.Drawing.Size(59, 19);
             this.label_EntregaPrevista.TabIndex = 82;
-            this.label_EntregaPrevista.Text = "Entrega Prevista:";
+            this.label_EntregaPrevista.Text = "Entrega";
             // 
             // label_Retirada
             // 
             this.label_Retirada.AutoSize = true;
-            this.label_Retirada.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Retirada.Location = new System.Drawing.Point(12, 132);
+            this.label_Retirada.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Retirada.Location = new System.Drawing.Point(12, 141);
             this.label_Retirada.Name = "label_Retirada";
-            this.label_Retirada.Size = new System.Drawing.Size(62, 20);
+            this.label_Retirada.Size = new System.Drawing.Size(64, 19);
             this.label_Retirada.TabIndex = 81;
-            this.label_Retirada.Text = "Retirada:";
+            this.label_Retirada.Text = "Retirada";
             // 
             // toolStripSeparator9
             // 
@@ -144,20 +148,20 @@
             // comboBox_Fornecedor
             // 
             this.comboBox_Fornecedor.FormattingEnabled = true;
-            this.comboBox_Fornecedor.Location = new System.Drawing.Point(101, 97);
+            this.comboBox_Fornecedor.Location = new System.Drawing.Point(99, 97);
             this.comboBox_Fornecedor.Name = "comboBox_Fornecedor";
-            this.comboBox_Fornecedor.Size = new System.Drawing.Size(355, 21);
+            this.comboBox_Fornecedor.Size = new System.Drawing.Size(307, 21);
             this.comboBox_Fornecedor.TabIndex = 78;
             // 
             // label_Fornecedor
             // 
             this.label_Fornecedor.AutoSize = true;
-            this.label_Fornecedor.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Fornecedor.Location = new System.Drawing.Point(12, 98);
+            this.label_Fornecedor.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Fornecedor.Location = new System.Drawing.Point(12, 96);
             this.label_Fornecedor.Name = "label_Fornecedor";
-            this.label_Fornecedor.Size = new System.Drawing.Size(83, 20);
+            this.label_Fornecedor.Size = new System.Drawing.Size(81, 19);
             this.label_Fornecedor.TabIndex = 77;
-            this.label_Fornecedor.Text = "Fornecedor:";
+            this.label_Fornecedor.Text = "Fornecedor";
             // 
             // toolStrip1
             // 
@@ -171,7 +175,7 @@
             this.toolStripSeparator9});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(503, 73);
             this.toolStrip1.TabIndex = 76;
             this.toolStrip1.Text = "toolStrip1";
@@ -179,12 +183,12 @@
             // label_TipoManutencao
             // 
             this.label_TipoManutencao.AutoSize = true;
-            this.label_TipoManutencao.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_TipoManutencao.Location = new System.Drawing.Point(12, 204);
+            this.label_TipoManutencao.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_TipoManutencao.Location = new System.Drawing.Point(12, 203);
             this.label_TipoManutencao.Name = "label_TipoManutencao";
-            this.label_TipoManutencao.Size = new System.Drawing.Size(135, 20);
+            this.label_TipoManutencao.Size = new System.Drawing.Size(141, 19);
             this.label_TipoManutencao.TabIndex = 88;
-            this.label_TipoManutencao.Text = "Tipo de Manutenção:";
+            this.label_TipoManutencao.Text = "Tipo de manutenção";
             // 
             // comboBox_TipoManutencao
             // 
@@ -195,14 +199,14 @@
             "Revisão"});
             this.comboBox_TipoManutencao.Location = new System.Drawing.Point(153, 203);
             this.comboBox_TipoManutencao.Name = "comboBox_TipoManutencao";
-            this.comboBox_TipoManutencao.Size = new System.Drawing.Size(133, 21);
+            this.comboBox_TipoManutencao.Size = new System.Drawing.Size(176, 21);
             this.comboBox_TipoManutencao.TabIndex = 89;
             // 
             // NovaManutencao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(503, 247);
             this.Controls.Add(this.comboBox_TipoManutencao);
             this.Controls.Add(this.label_TipoManutencao);

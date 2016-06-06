@@ -57,6 +57,7 @@
             // 
             this.toolStrip1.BackColor = System.Drawing.Color.LightBlue;
             this.toolStrip1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("toolStrip1.BackgroundImage")));
+            this.toolStrip1.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton_Salvar,
             this.toolStripSeparator1,
@@ -68,7 +69,7 @@
             this.toolStripSeparator3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(494, 73);
             this.toolStrip1.TabIndex = 119;
             this.toolStrip1.Text = "toolStrip1";
@@ -76,6 +77,7 @@
             // toolStripButton_Salvar
             // 
             this.toolStripButton_Salvar.AutoSize = false;
+            this.toolStripButton_Salvar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Salvar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Salvar.Image")));
             this.toolStripButton_Salvar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Salvar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -95,6 +97,7 @@
             // toolStripButton_Excluir
             // 
             this.toolStripButton_Excluir.AutoSize = false;
+            this.toolStripButton_Excluir.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Excluir.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Excluir.Image")));
             this.toolStripButton_Excluir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Excluir.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -114,6 +117,7 @@
             // toolStripButton_Imprimir
             // 
             this.toolStripButton_Imprimir.AutoSize = false;
+            this.toolStripButton_Imprimir.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Imprimir.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Imprimir.Image")));
             this.toolStripButton_Imprimir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Imprimir.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -133,6 +137,7 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -155,7 +160,7 @@
             this.comboBox_TipoUsuario.Items.AddRange(new object[] {
             "Comum",
             "Administrador"});
-            this.comboBox_TipoUsuario.Location = new System.Drawing.Point(126, 100);
+            this.comboBox_TipoUsuario.Location = new System.Drawing.Point(340, 183);
             this.comboBox_TipoUsuario.Name = "comboBox_TipoUsuario";
             this.comboBox_TipoUsuario.Size = new System.Drawing.Size(121, 21);
             this.comboBox_TipoUsuario.TabIndex = 120;
@@ -163,58 +168,58 @@
             // label_TipoUsuario
             // 
             this.label_TipoUsuario.AutoSize = true;
-            this.label_TipoUsuario.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_TipoUsuario.Location = new System.Drawing.Point(12, 100);
+            this.label_TipoUsuario.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_TipoUsuario.Location = new System.Drawing.Point(258, 183);
             this.label_TipoUsuario.Name = "label_TipoUsuario";
-            this.label_TipoUsuario.Size = new System.Drawing.Size(108, 20);
+            this.label_TipoUsuario.Size = new System.Drawing.Size(76, 19);
             this.label_TipoUsuario.TabIndex = 131;
-            this.label_TipoUsuario.Text = "Tipo de Usuario:";
+            this.label_TipoUsuario.Text = "Permissão";
             // 
             // textBox_Senha
             // 
-            this.textBox_Senha.Location = new System.Drawing.Point(306, 209);
+            this.textBox_Senha.Location = new System.Drawing.Point(76, 211);
             this.textBox_Senha.Name = "textBox_Senha";
-            this.textBox_Senha.Size = new System.Drawing.Size(166, 20);
+            this.textBox_Senha.Size = new System.Drawing.Size(176, 20);
             this.textBox_Senha.TabIndex = 125;
             // 
             // label_Senha
             // 
             this.label_Senha.AutoSize = true;
-            this.label_Senha.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Senha.Location = new System.Drawing.Point(249, 209);
+            this.label_Senha.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Senha.Location = new System.Drawing.Point(22, 210);
             this.label_Senha.Name = "label_Senha";
-            this.label_Senha.Size = new System.Drawing.Size(51, 20);
+            this.label_Senha.Size = new System.Drawing.Size(48, 19);
             this.label_Senha.TabIndex = 126;
-            this.label_Senha.Text = "Senha:";
+            this.label_Senha.Text = "Senha";
             // 
             // textBox_Nome
             // 
-            this.textBox_Nome.Location = new System.Drawing.Point(76, 133);
+            this.textBox_Nome.Location = new System.Drawing.Point(65, 94);
             this.textBox_Nome.Name = "textBox_Nome";
             this.textBox_Nome.Size = new System.Drawing.Size(396, 20);
             this.textBox_Nome.TabIndex = 121;
             // 
             // textBox_Usuario
             // 
-            this.textBox_Usuario.Location = new System.Drawing.Point(76, 211);
+            this.textBox_Usuario.Location = new System.Drawing.Point(77, 182);
             this.textBox_Usuario.Name = "textBox_Usuario";
-            this.textBox_Usuario.Size = new System.Drawing.Size(171, 20);
+            this.textBox_Usuario.Size = new System.Drawing.Size(175, 20);
             this.textBox_Usuario.TabIndex = 124;
             this.textBox_Usuario.WordWrap = false;
             // 
             // label_Usuario
             // 
             this.label_Usuario.AutoSize = true;
-            this.label_Usuario.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Usuario.Location = new System.Drawing.Point(12, 209);
+            this.label_Usuario.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Usuario.Location = new System.Drawing.Point(12, 183);
             this.label_Usuario.Name = "label_Usuario";
-            this.label_Usuario.Size = new System.Drawing.Size(58, 20);
+            this.label_Usuario.Size = new System.Drawing.Size(59, 19);
             this.label_Usuario.TabIndex = 130;
-            this.label_Usuario.Text = "Usuário:";
+            this.label_Usuario.Text = "Usuário";
             // 
             // textBox_RG
             // 
-            this.textBox_RG.Location = new System.Drawing.Point(306, 171);
+            this.textBox_RG.Location = new System.Drawing.Point(295, 125);
             this.textBox_RG.Name = "textBox_RG";
             this.textBox_RG.Size = new System.Drawing.Size(166, 20);
             this.textBox_RG.TabIndex = 123;
@@ -222,45 +227,45 @@
             // label_RG
             // 
             this.label_RG.AutoSize = true;
-            this.label_RG.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_RG.Location = new System.Drawing.Point(253, 171);
+            this.label_RG.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_RG.Location = new System.Drawing.Point(257, 123);
             this.label_RG.Name = "label_RG";
-            this.label_RG.Size = new System.Drawing.Size(32, 20);
+            this.label_RG.Size = new System.Drawing.Size(28, 19);
             this.label_RG.TabIndex = 129;
-            this.label_RG.Text = "RG:";
+            this.label_RG.Text = "RG";
             // 
             // label_Nome
             // 
             this.label_Nome.AutoSize = true;
-            this.label_Nome.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Nome.Location = new System.Drawing.Point(12, 133);
+            this.label_Nome.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Nome.Location = new System.Drawing.Point(12, 93);
             this.label_Nome.Name = "label_Nome";
-            this.label_Nome.Size = new System.Drawing.Size(49, 20);
+            this.label_Nome.Size = new System.Drawing.Size(47, 19);
             this.label_Nome.TabIndex = 128;
-            this.label_Nome.Text = "Nome:";
+            this.label_Nome.Text = "Nome";
             // 
             // textBox_CPF
             // 
-            this.textBox_CPF.Location = new System.Drawing.Point(76, 171);
+            this.textBox_CPF.Location = new System.Drawing.Point(65, 123);
             this.textBox_CPF.Name = "textBox_CPF";
-            this.textBox_CPF.Size = new System.Drawing.Size(171, 20);
+            this.textBox_CPF.Size = new System.Drawing.Size(187, 20);
             this.textBox_CPF.TabIndex = 122;
             // 
             // label_CPF
             // 
             this.label_CPF.AutoSize = true;
-            this.label_CPF.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_CPF.Location = new System.Drawing.Point(12, 171);
+            this.label_CPF.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_CPF.Location = new System.Drawing.Point(26, 122);
             this.label_CPF.Name = "label_CPF";
-            this.label_CPF.Size = new System.Drawing.Size(39, 20);
+            this.label_CPF.Size = new System.Drawing.Size(33, 19);
             this.label_CPF.TabIndex = 127;
-            this.label_CPF.Text = "CPF:";
+            this.label_CPF.Text = "CPF";
             // 
             // ExibirUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(494, 259);
             this.Controls.Add(this.comboBox_TipoUsuario);
             this.Controls.Add(this.label_TipoUsuario);

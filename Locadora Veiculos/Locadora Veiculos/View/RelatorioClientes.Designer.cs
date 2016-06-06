@@ -50,7 +50,7 @@
             this.toolStripSeparator3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(384, 73);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
@@ -58,6 +58,8 @@
             // toolStripButton_Emitir
             // 
             this.toolStripButton_Emitir.AutoSize = false;
+            this.toolStripButton_Emitir.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Emitir.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Emitir.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Emitir.Image")));
             this.toolStripButton_Emitir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Emitir.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -77,6 +79,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -96,12 +100,12 @@
             // label_Tipo
             // 
             this.label_Tipo.AutoSize = true;
-            this.label_Tipo.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Tipo.Location = new System.Drawing.Point(21, 102);
+            this.label_Tipo.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Tipo.Location = new System.Drawing.Point(30, 103);
             this.label_Tipo.Name = "label_Tipo";
-            this.label_Tipo.Size = new System.Drawing.Size(39, 20);
+            this.label_Tipo.Size = new System.Drawing.Size(37, 19);
             this.label_Tipo.TabIndex = 68;
-            this.label_Tipo.Text = "Tipo:";
+            this.label_Tipo.Text = "Tipo";
             // 
             // comboBox_Tipo
             // 
@@ -110,7 +114,7 @@
             "Todos",
             "Pessoa Fisica",
             "Pessoa Juridica"});
-            this.comboBox_Tipo.Location = new System.Drawing.Point(81, 101);
+            this.comboBox_Tipo.Location = new System.Drawing.Point(73, 103);
             this.comboBox_Tipo.Name = "comboBox_Tipo";
             this.comboBox_Tipo.Size = new System.Drawing.Size(139, 21);
             this.comboBox_Tipo.TabIndex = 67;
@@ -119,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(384, 162);
             this.Controls.Add(this.label_Tipo);
             this.Controls.Add(this.comboBox_Tipo);

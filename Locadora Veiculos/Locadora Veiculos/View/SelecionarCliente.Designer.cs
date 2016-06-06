@@ -41,7 +41,9 @@
             this.label_TipoPessoa = new System.Windows.Forms.Label();
             this.button_Pesquisar = new System.Windows.Forms.Button();
             this.textBox_ValorBusca = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -57,7 +59,7 @@
             this.toolStripSeparator3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(720, 73);
             this.toolStrip1.TabIndex = 8;
             this.toolStrip1.Text = "toolStrip1";
@@ -65,6 +67,8 @@
             // toolStripButton_Novo
             // 
             this.toolStripButton_Novo.AutoSize = false;
+            this.toolStripButton_Novo.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Novo.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Novo.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Novo.Image")));
             this.toolStripButton_Novo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Novo.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -84,6 +88,8 @@
             // toolStripButton_Selecionar
             // 
             this.toolStripButton_Selecionar.AutoSize = false;
+            this.toolStripButton_Selecionar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Selecionar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Selecionar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Selecionar.Image")));
             this.toolStripButton_Selecionar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Selecionar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -103,6 +109,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -122,12 +130,12 @@
             // label_ValorBusca
             // 
             this.label_ValorBusca.AutoSize = true;
-            this.label_ValorBusca.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_ValorBusca.Location = new System.Drawing.Point(310, 102);
+            this.label_ValorBusca.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_ValorBusca.Location = new System.Drawing.Point(316, 101);
             this.label_ValorBusca.Name = "label_ValorBusca";
-            this.label_ValorBusca.Size = new System.Drawing.Size(84, 15);
+            this.label_ValorBusca.Size = new System.Drawing.Size(110, 19);
             this.label_ValorBusca.TabIndex = 13;
-            this.label_ValorBusca.Text = "Valor de Busca";
+            this.label_ValorBusca.Text = "Buscar Clientes";
             // 
             // comboBox_TipoPessoa
             // 
@@ -138,18 +146,18 @@
             "Todos",
             "Física",
             "Jurídica"});
-            this.comboBox_TipoPessoa.Location = new System.Drawing.Point(60, 120);
+            this.comboBox_TipoPessoa.Location = new System.Drawing.Point(12, 123);
             this.comboBox_TipoPessoa.Name = "comboBox_TipoPessoa";
-            this.comboBox_TipoPessoa.Size = new System.Drawing.Size(100, 25);
+            this.comboBox_TipoPessoa.Size = new System.Drawing.Size(132, 25);
             this.comboBox_TipoPessoa.TabIndex = 12;
             // 
             // label_TipoPessoa
             // 
             this.label_TipoPessoa.AutoSize = true;
-            this.label_TipoPessoa.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_TipoPessoa.Location = new System.Drawing.Point(67, 101);
+            this.label_TipoPessoa.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_TipoPessoa.Location = new System.Drawing.Point(26, 101);
             this.label_TipoPessoa.Name = "label_TipoPessoa";
-            this.label_TipoPessoa.Size = new System.Drawing.Size(82, 16);
+            this.label_TipoPessoa.Size = new System.Drawing.Size(107, 19);
             this.label_TipoPessoa.TabIndex = 11;
             this.label_TipoPessoa.Text = "Tipo de Pessoa";
             // 
@@ -158,12 +166,13 @@
             this.button_Pesquisar.AutoSize = true;
             this.button_Pesquisar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button_Pesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Pesquisar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Pesquisar.Image = ((System.Drawing.Image)(resources.GetObject("button_Pesquisar.Image")));
-            this.button_Pesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button_Pesquisar.Location = new System.Drawing.Point(558, 114);
+            this.button_Pesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Pesquisar.Location = new System.Drawing.Point(618, 120);
             this.button_Pesquisar.Name = "button_Pesquisar";
-            this.button_Pesquisar.Size = new System.Drawing.Size(101, 34);
-            this.button_Pesquisar.TabIndex = 10;
+            this.button_Pesquisar.Size = new System.Drawing.Size(90, 30);
+            this.button_Pesquisar.TabIndex = 4;
             this.button_Pesquisar.Text = "Pesquisar";
             this.button_Pesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button_Pesquisar.UseVisualStyleBackColor = true;
@@ -171,19 +180,28 @@
             // textBox_ValorBusca
             // 
             this.textBox_ValorBusca.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_ValorBusca.Location = new System.Drawing.Point(182, 120);
+            this.textBox_ValorBusca.Location = new System.Drawing.Point(151, 123);
             this.textBox_ValorBusca.Multiline = true;
             this.textBox_ValorBusca.Name = "textBox_ValorBusca";
-            this.textBox_ValorBusca.Size = new System.Drawing.Size(360, 30);
+            this.textBox_ValorBusca.Size = new System.Drawing.Size(461, 25);
             this.textBox_ValorBusca.TabIndex = 9;
             this.textBox_ValorBusca.Text = "Digite Nome,CPF,RG,Razão Social,CNPJ,Nome Fantasia.";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 156);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(695, 316);
+            this.dataGridView1.TabIndex = 14;
             // 
             // SelecionarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(720, 483);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label_ValorBusca);
             this.Controls.Add(this.comboBox_TipoPessoa);
@@ -196,6 +214,7 @@
             this.Text = "Selecionar Cliente";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,5 +234,6 @@
         private System.Windows.Forms.Label label_TipoPessoa;
         private System.Windows.Forms.Button button_Pesquisar;
         private System.Windows.Forms.TextBox textBox_ValorBusca;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

@@ -55,7 +55,7 @@
             this.toolStripSeparator9});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(504, 73);
             this.toolStrip1.TabIndex = 77;
             this.toolStrip1.Text = "toolStrip1";
@@ -63,6 +63,8 @@
             // toolStripButton_Confirmar
             // 
             this.toolStripButton_Confirmar.AutoSize = false;
+            this.toolStripButton_Confirmar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Confirmar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Confirmar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Confirmar.Image")));
             this.toolStripButton_Confirmar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Confirmar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -81,6 +83,8 @@
             // toolStripButton_Cancelar
             // 
             this.toolStripButton_Cancelar.AutoSize = false;
+            this.toolStripButton_Cancelar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Cancelar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Cancelar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Cancelar.Image")));
             this.toolStripButton_Cancelar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Cancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -100,60 +104,60 @@
             // label_DataPrevista
             // 
             this.label_DataPrevista.AutoSize = true;
-            this.label_DataPrevista.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_DataPrevista.Location = new System.Drawing.Point(12, 87);
+            this.label_DataPrevista.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_DataPrevista.Location = new System.Drawing.Point(7, 88);
             this.label_DataPrevista.Name = "label_DataPrevista";
-            this.label_DataPrevista.Size = new System.Drawing.Size(111, 20);
+            this.label_DataPrevista.Size = new System.Drawing.Size(115, 19);
             this.label_DataPrevista.TabIndex = 83;
-            this.label_DataPrevista.Text = "Entrega Prevista:";
+            this.label_DataPrevista.Text = "Entrega prevista";
             // 
             // dateTimePicker_DataPrevisa
             // 
-            this.dateTimePicker_DataPrevisa.Location = new System.Drawing.Point(129, 87);
+            this.dateTimePicker_DataPrevisa.Location = new System.Drawing.Point(128, 88);
             this.dateTimePicker_DataPrevisa.Name = "dateTimePicker_DataPrevisa";
-            this.dateTimePicker_DataPrevisa.Size = new System.Drawing.Size(230, 20);
+            this.dateTimePicker_DataPrevisa.Size = new System.Drawing.Size(229, 20);
             this.dateTimePicker_DataPrevisa.TabIndex = 85;
             // 
             // label_DataEntrega
             // 
             this.label_DataEntrega.AutoSize = true;
-            this.label_DataEntrega.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_DataEntrega.Location = new System.Drawing.Point(12, 126);
+            this.label_DataEntrega.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_DataEntrega.Location = new System.Drawing.Point(7, 120);
             this.label_DataEntrega.Name = "label_DataEntrega";
-            this.label_DataEntrega.Size = new System.Drawing.Size(89, 20);
+            this.label_DataEntrega.Size = new System.Drawing.Size(114, 19);
             this.label_DataEntrega.TabIndex = 86;
-            this.label_DataEntrega.Text = "Data Entrega:";
+            this.label_DataEntrega.Text = "Data de entrega";
             // 
             // dateTimePicker_DataEntrega
             // 
-            this.dateTimePicker_DataEntrega.Location = new System.Drawing.Point(129, 125);
+            this.dateTimePicker_DataEntrega.Location = new System.Drawing.Point(127, 120);
             this.dateTimePicker_DataEntrega.Name = "dateTimePicker_DataEntrega";
             this.dateTimePicker_DataEntrega.Size = new System.Drawing.Size(230, 20);
             this.dateTimePicker_DataEntrega.TabIndex = 87;
             // 
             // textBox_Observacoes
             // 
-            this.textBox_Observacoes.Location = new System.Drawing.Point(129, 162);
+            this.textBox_Observacoes.Location = new System.Drawing.Point(16, 182);
             this.textBox_Observacoes.Multiline = true;
             this.textBox_Observacoes.Name = "textBox_Observacoes";
-            this.textBox_Observacoes.Size = new System.Drawing.Size(363, 73);
+            this.textBox_Observacoes.Size = new System.Drawing.Size(363, 53);
             this.textBox_Observacoes.TabIndex = 88;
             // 
             // label_Observacoes
             // 
             this.label_Observacoes.AutoSize = true;
-            this.label_Observacoes.Font = new System.Drawing.Font("Arial Narrow", 12F);
+            this.label_Observacoes.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Observacoes.Location = new System.Drawing.Point(12, 160);
             this.label_Observacoes.Name = "label_Observacoes";
-            this.label_Observacoes.Size = new System.Drawing.Size(94, 20);
+            this.label_Observacoes.Size = new System.Drawing.Size(90, 19);
             this.label_Observacoes.TabIndex = 89;
-            this.label_Observacoes.Text = "Observações:";
+            this.label_Observacoes.Text = "Observações";
             // 
             // DevolucaoManutencao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(504, 247);
             this.Controls.Add(this.label_Observacoes);
             this.Controls.Add(this.textBox_Observacoes);

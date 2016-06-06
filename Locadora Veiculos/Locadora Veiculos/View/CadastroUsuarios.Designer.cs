@@ -51,21 +51,22 @@
             // 
             // textBox_Senha
             // 
-            this.textBox_Senha.Location = new System.Drawing.Point(306, 202);
+            this.textBox_Senha.Location = new System.Drawing.Point(72, 209);
             this.textBox_Senha.Name = "textBox_Senha";
-            this.textBox_Senha.Size = new System.Drawing.Size(166, 20);
+            this.textBox_Senha.Size = new System.Drawing.Size(173, 20);
             this.textBox_Senha.TabIndex = 6;
             this.textBox_Senha.TextChanged += new System.EventHandler(this.textBox_Senha_TextChanged);
             // 
             // label_Senha
             // 
             this.label_Senha.AutoSize = true;
-            this.label_Senha.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Senha.Location = new System.Drawing.Point(249, 202);
+            this.label_Senha.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Senha.Location = new System.Drawing.Point(18, 210);
             this.label_Senha.Name = "label_Senha";
-            this.label_Senha.Size = new System.Drawing.Size(51, 20);
+            this.label_Senha.Size = new System.Drawing.Size(48, 19);
             this.label_Senha.TabIndex = 100;
-            this.label_Senha.Text = "Senha:";
+            this.label_Senha.Text = "Senha";
+            this.label_Senha.Click += new System.EventHandler(this.label_Senha_Click);
             // 
             // toolStrip1
             // 
@@ -78,7 +79,7 @@
             this.toolStripSeparator3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(494, 73);
             this.toolStrip1.TabIndex = 94;
             this.toolStrip1.Text = "toolStrip1";
@@ -86,6 +87,8 @@
             // toolStripButton_Salvar
             // 
             this.toolStripButton_Salvar.AutoSize = false;
+            this.toolStripButton_Salvar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Salvar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Salvar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Salvar.Image")));
             this.toolStripButton_Salvar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Salvar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -105,6 +108,8 @@
             // toolStripButton_Cancelar
             // 
             this.toolStripButton_Cancelar.AutoSize = false;
+            this.toolStripButton_Cancelar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Cancelar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Cancelar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Cancelar.Image")));
             this.toolStripButton_Cancelar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Cancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -123,7 +128,7 @@
             // 
             // textBox_Nome
             // 
-            this.textBox_Nome.Location = new System.Drawing.Point(76, 126);
+            this.textBox_Nome.Location = new System.Drawing.Point(61, 91);
             this.textBox_Nome.Name = "textBox_Nome";
             this.textBox_Nome.Size = new System.Drawing.Size(396, 20);
             this.textBox_Nome.TabIndex = 2;
@@ -131,9 +136,9 @@
             // 
             // textBox_Usuario
             // 
-            this.textBox_Usuario.Location = new System.Drawing.Point(76, 204);
+            this.textBox_Usuario.Location = new System.Drawing.Point(72, 176);
             this.textBox_Usuario.Name = "textBox_Usuario";
-            this.textBox_Usuario.Size = new System.Drawing.Size(171, 20);
+            this.textBox_Usuario.Size = new System.Drawing.Size(173, 20);
             this.textBox_Usuario.TabIndex = 5;
             this.textBox_Usuario.WordWrap = false;
             this.textBox_Usuario.TextChanged += new System.EventHandler(this.textBox_Usuario_TextChanged);
@@ -141,67 +146,67 @@
             // label_Usuario
             // 
             this.label_Usuario.AutoSize = true;
-            this.label_Usuario.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Usuario.Location = new System.Drawing.Point(12, 202);
+            this.label_Usuario.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Usuario.Location = new System.Drawing.Point(7, 177);
             this.label_Usuario.Name = "label_Usuario";
-            this.label_Usuario.Size = new System.Drawing.Size(58, 20);
+            this.label_Usuario.Size = new System.Drawing.Size(59, 19);
             this.label_Usuario.TabIndex = 117;
-            this.label_Usuario.Text = "Usuário:";
+            this.label_Usuario.Text = "Usuário";
             // 
             // textBox_RG
             // 
-            this.textBox_RG.Location = new System.Drawing.Point(306, 164);
+            this.textBox_RG.Location = new System.Drawing.Point(285, 125);
             this.textBox_RG.Name = "textBox_RG";
-            this.textBox_RG.Size = new System.Drawing.Size(166, 20);
+            this.textBox_RG.Size = new System.Drawing.Size(172, 20);
             this.textBox_RG.TabIndex = 4;
             // 
             // label_RG
             // 
             this.label_RG.AutoSize = true;
-            this.label_RG.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_RG.Location = new System.Drawing.Point(253, 164);
+            this.label_RG.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_RG.Location = new System.Drawing.Point(251, 125);
             this.label_RG.Name = "label_RG";
-            this.label_RG.Size = new System.Drawing.Size(32, 20);
+            this.label_RG.Size = new System.Drawing.Size(28, 19);
             this.label_RG.TabIndex = 115;
-            this.label_RG.Text = "RG:";
+            this.label_RG.Text = "RG";
             // 
             // label_Nome
             // 
             this.label_Nome.AutoSize = true;
-            this.label_Nome.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_Nome.Location = new System.Drawing.Point(12, 126);
+            this.label_Nome.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Nome.Location = new System.Drawing.Point(8, 90);
             this.label_Nome.Name = "label_Nome";
-            this.label_Nome.Size = new System.Drawing.Size(49, 20);
+            this.label_Nome.Size = new System.Drawing.Size(47, 19);
             this.label_Nome.TabIndex = 114;
-            this.label_Nome.Text = "Nome:";
+            this.label_Nome.Text = "Nome";
             // 
             // textBox_CPF
             // 
-            this.textBox_CPF.Location = new System.Drawing.Point(76, 164);
+            this.textBox_CPF.Location = new System.Drawing.Point(61, 124);
             this.textBox_CPF.Name = "textBox_CPF";
-            this.textBox_CPF.Size = new System.Drawing.Size(171, 20);
+            this.textBox_CPF.Size = new System.Drawing.Size(184, 20);
             this.textBox_CPF.TabIndex = 3;
             this.textBox_CPF.TextChanged += new System.EventHandler(this.textBox_CPF_TextChanged);
             // 
             // label_CPF
             // 
             this.label_CPF.AutoSize = true;
-            this.label_CPF.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_CPF.Location = new System.Drawing.Point(12, 164);
+            this.label_CPF.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_CPF.Location = new System.Drawing.Point(22, 123);
             this.label_CPF.Name = "label_CPF";
-            this.label_CPF.Size = new System.Drawing.Size(39, 20);
+            this.label_CPF.Size = new System.Drawing.Size(33, 19);
             this.label_CPF.TabIndex = 112;
-            this.label_CPF.Text = "CPF:";
+            this.label_CPF.Text = "CPF";
             // 
             // label_TipoUsuario
             // 
             this.label_TipoUsuario.AutoSize = true;
-            this.label_TipoUsuario.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_TipoUsuario.Location = new System.Drawing.Point(12, 93);
+            this.label_TipoUsuario.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_TipoUsuario.Location = new System.Drawing.Point(251, 176);
             this.label_TipoUsuario.Name = "label_TipoUsuario";
-            this.label_TipoUsuario.Size = new System.Drawing.Size(108, 20);
+            this.label_TipoUsuario.Size = new System.Drawing.Size(76, 19);
             this.label_TipoUsuario.TabIndex = 119;
-            this.label_TipoUsuario.Text = "Tipo de Usuario:";
+            this.label_TipoUsuario.Text = "Permissão";
             // 
             // comboBox_TipoUsuario
             // 
@@ -209,9 +214,9 @@
             this.comboBox_TipoUsuario.Items.AddRange(new object[] {
             "Comum",
             "Administrador"});
-            this.comboBox_TipoUsuario.Location = new System.Drawing.Point(126, 93);
+            this.comboBox_TipoUsuario.Location = new System.Drawing.Point(333, 175);
             this.comboBox_TipoUsuario.Name = "comboBox_TipoUsuario";
-            this.comboBox_TipoUsuario.Size = new System.Drawing.Size(121, 21);
+            this.comboBox_TipoUsuario.Size = new System.Drawing.Size(124, 21);
             this.comboBox_TipoUsuario.TabIndex = 1;
             // 
             // CadastroUsuarios

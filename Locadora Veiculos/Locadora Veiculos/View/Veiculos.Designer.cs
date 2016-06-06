@@ -41,7 +41,9 @@
             this.textBox_ValorBusca = new System.Windows.Forms.TextBox();
             this.label_ValorBusca = new System.Windows.Forms.Label();
             this.button_Pesquisar = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -57,7 +59,7 @@
             this.toolStripSeparator3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(720, 73);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
@@ -65,6 +67,8 @@
             // toolStripButton_Novo
             // 
             this.toolStripButton_Novo.AutoSize = false;
+            this.toolStripButton_Novo.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Novo.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Novo.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Novo.Image")));
             this.toolStripButton_Novo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Novo.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -84,6 +88,8 @@
             // toolStripButton_Selecionar
             // 
             this.toolStripButton_Selecionar.AutoSize = false;
+            this.toolStripButton_Selecionar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Selecionar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Selecionar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Selecionar.Image")));
             this.toolStripButton_Selecionar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Selecionar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -102,6 +108,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -121,10 +129,10 @@
             // label_Categoria
             // 
             this.label_Categoria.AutoSize = true;
-            this.label_Categoria.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Categoria.Location = new System.Drawing.Point(94, 108);
+            this.label_Categoria.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Categoria.Location = new System.Drawing.Point(41, 97);
             this.label_Categoria.Name = "label_Categoria";
-            this.label_Categoria.Size = new System.Drawing.Size(54, 16);
+            this.label_Categoria.Size = new System.Drawing.Size(72, 19);
             this.label_Categoria.TabIndex = 6;
             this.label_Categoria.Text = "Categoria";
             // 
@@ -138,52 +146,62 @@
             "A",
             "B",
             "C"});
-            this.comboBox_Categoria.Location = new System.Drawing.Point(79, 127);
+            this.comboBox_Categoria.Location = new System.Drawing.Point(12, 119);
             this.comboBox_Categoria.Name = "comboBox_Categoria";
-            this.comboBox_Categoria.Size = new System.Drawing.Size(87, 25);
+            this.comboBox_Categoria.Size = new System.Drawing.Size(132, 25);
             this.comboBox_Categoria.TabIndex = 7;
             // 
             // textBox_ValorBusca
             // 
             this.textBox_ValorBusca.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_ValorBusca.Location = new System.Drawing.Point(181, 126);
+            this.textBox_ValorBusca.Location = new System.Drawing.Point(150, 119);
             this.textBox_ValorBusca.Multiline = true;
             this.textBox_ValorBusca.Name = "textBox_ValorBusca";
-            this.textBox_ValorBusca.Size = new System.Drawing.Size(360, 30);
+            this.textBox_ValorBusca.Size = new System.Drawing.Size(461, 25);
             this.textBox_ValorBusca.TabIndex = 8;
             this.textBox_ValorBusca.Text = "Digite Marca,Modelo,Placa,RENAVAM,Motor,Opcionais";
             // 
             // label_ValorBusca
             // 
             this.label_ValorBusca.AutoSize = true;
-            this.label_ValorBusca.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_ValorBusca.Location = new System.Drawing.Point(305, 108);
+            this.label_ValorBusca.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_ValorBusca.Location = new System.Drawing.Point(330, 97);
             this.label_ValorBusca.Name = "label_ValorBusca";
-            this.label_ValorBusca.Size = new System.Drawing.Size(84, 15);
+            this.label_ValorBusca.Size = new System.Drawing.Size(111, 19);
             this.label_ValorBusca.TabIndex = 9;
-            this.label_ValorBusca.Text = "Valor de Busca";
+            this.label_ValorBusca.Text = "Buscar Veículos";
             // 
             // button_Pesquisar
             // 
             this.button_Pesquisar.AutoSize = true;
             this.button_Pesquisar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button_Pesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Pesquisar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Pesquisar.Image = ((System.Drawing.Image)(resources.GetObject("button_Pesquisar.Image")));
-            this.button_Pesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button_Pesquisar.Location = new System.Drawing.Point(556, 122);
+            this.button_Pesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Pesquisar.Location = new System.Drawing.Point(617, 116);
             this.button_Pesquisar.Name = "button_Pesquisar";
-            this.button_Pesquisar.Size = new System.Drawing.Size(101, 34);
-            this.button_Pesquisar.TabIndex = 10;
+            this.button_Pesquisar.Size = new System.Drawing.Size(90, 30);
+            this.button_Pesquisar.TabIndex = 4;
             this.button_Pesquisar.Text = "Pesquisar";
             this.button_Pesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button_Pesquisar.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 150);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(695, 316);
+            this.dataGridView1.TabIndex = 10;
             // 
             // Veiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(720, 483);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button_Pesquisar);
             this.Controls.Add(this.label_ValorBusca);
             this.Controls.Add(this.textBox_ValorBusca);
@@ -196,6 +214,7 @@
             this.Text = "Veículos";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,5 +234,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripButton toolStripButton_Selecionar;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

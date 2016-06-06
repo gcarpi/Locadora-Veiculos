@@ -125,5 +125,10 @@ namespace Locadora_Veiculos
             }
         }
 
+        private void label_CNPJ_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

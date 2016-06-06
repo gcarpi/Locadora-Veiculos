@@ -60,7 +60,7 @@
             this.toolStripSeparator2});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(720, 73);
             this.toolStrip1.TabIndex = 9;
             this.toolStrip1.Text = "toolStrip1";
@@ -68,6 +68,8 @@
             // toolStripButton_Nova
             // 
             this.toolStripButton_Nova.AutoSize = false;
+            this.toolStripButton_Nova.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Nova.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Nova.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Nova.Image")));
             this.toolStripButton_Nova.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Nova.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -87,6 +89,8 @@
             // toolStripButton_Selecionar
             // 
             this.toolStripButton_Selecionar.AutoSize = false;
+            this.toolStripButton_Selecionar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Selecionar.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Selecionar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Selecionar.Image")));
             this.toolStripButton_Selecionar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Selecionar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -105,6 +109,8 @@
             // toolStripButton_Sair
             // 
             this.toolStripButton_Sair.AutoSize = false;
+            this.toolStripButton_Sair.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton_Sair.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripButton_Sair.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Sair.Image")));
             this.toolStripButton_Sair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton_Sair.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -124,20 +130,20 @@
             // label_ValorBusca
             // 
             this.label_ValorBusca.AutoSize = true;
-            this.label_ValorBusca.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_ValorBusca.Location = new System.Drawing.Point(223, 112);
+            this.label_ValorBusca.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_ValorBusca.Location = new System.Drawing.Point(270, 135);
             this.label_ValorBusca.Name = "label_ValorBusca";
-            this.label_ValorBusca.Size = new System.Drawing.Size(83, 15);
+            this.label_ValorBusca.Size = new System.Drawing.Size(127, 19);
             this.label_ValorBusca.TabIndex = 14;
-            this.label_ValorBusca.Text = "Valor de Busca";
+            this.label_ValorBusca.Text = "Buscar Categorias";
             // 
             // textBox_ValorBusca
             // 
-            this.textBox_ValorBusca.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_ValorBusca.Location = new System.Drawing.Point(125, 130);
+            this.textBox_ValorBusca.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_ValorBusca.Location = new System.Drawing.Point(12, 162);
             this.textBox_ValorBusca.Multiline = true;
             this.textBox_ValorBusca.Name = "textBox_ValorBusca";
-            this.textBox_ValorBusca.Size = new System.Drawing.Size(360, 30);
+            this.textBox_ValorBusca.Size = new System.Drawing.Size(600, 25);
             this.textBox_ValorBusca.TabIndex = 15;
             this.textBox_ValorBusca.Text = "Digite Nome,Valor.";
             // 
@@ -146,11 +152,12 @@
             this.button_Pesquisar.AutoSize = true;
             this.button_Pesquisar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button_Pesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Pesquisar.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Pesquisar.Image = ((System.Drawing.Image)(resources.GetObject("button_Pesquisar.Image")));
-            this.button_Pesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button_Pesquisar.Location = new System.Drawing.Point(491, 126);
+            this.button_Pesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Pesquisar.Location = new System.Drawing.Point(618, 157);
             this.button_Pesquisar.Name = "button_Pesquisar";
-            this.button_Pesquisar.Size = new System.Drawing.Size(101, 34);
+            this.button_Pesquisar.Size = new System.Drawing.Size(90, 30);
             this.button_Pesquisar.TabIndex = 16;
             this.button_Pesquisar.Text = "Pesquisar";
             this.button_Pesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -167,11 +174,11 @@
             this.Código,
             this.Nome,
             this.Valor});
-            this.dataGridView_Categoria.Location = new System.Drawing.Point(125, 193);
+            this.dataGridView_Categoria.Location = new System.Drawing.Point(12, 193);
             this.dataGridView_Categoria.Name = "dataGridView_Categoria";
             this.dataGridView_Categoria.ReadOnly = true;
             this.dataGridView_Categoria.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView_Categoria.Size = new System.Drawing.Size(467, 251);
+            this.dataGridView_Categoria.Size = new System.Drawing.Size(696, 251);
             this.dataGridView_Categoria.TabIndex = 17;
             this.dataGridView_Categoria.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_Categoria_CellClick);
             // 
@@ -200,7 +207,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(720, 483);
             this.Controls.Add(this.dataGridView_Categoria);
             this.Controls.Add(this.button_Pesquisar);
