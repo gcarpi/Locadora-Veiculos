@@ -149,7 +149,7 @@
             // 
             this.label_Marca.AutoSize = true;
             this.label_Marca.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Marca.Location = new System.Drawing.Point(45, 129);
+            this.label_Marca.Location = new System.Drawing.Point(45, 128);
             this.label_Marca.Name = "label_Marca";
             this.label_Marca.Size = new System.Drawing.Size(50, 19);
             this.label_Marca.TabIndex = 43;
@@ -166,7 +166,7 @@
             // 
             this.label_Modelo.AutoSize = true;
             this.label_Modelo.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Modelo.Location = new System.Drawing.Point(33, 164);
+            this.label_Modelo.Location = new System.Drawing.Point(37, 165);
             this.label_Modelo.Name = "label_Modelo";
             this.label_Modelo.Size = new System.Drawing.Size(58, 19);
             this.label_Modelo.TabIndex = 45;
@@ -183,7 +183,7 @@
             // 
             this.label_AnoFabricacao.AutoSize = true;
             this.label_AnoFabricacao.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_AnoFabricacao.Location = new System.Drawing.Point(403, 167);
+            this.label_AnoFabricacao.Location = new System.Drawing.Point(405, 199);
             this.label_AnoFabricacao.Name = "label_AnoFabricacao";
             this.label_AnoFabricacao.Size = new System.Drawing.Size(108, 19);
             this.label_AnoFabricacao.TabIndex = 47;
@@ -191,7 +191,7 @@
             // 
             // numeric_AnoFabricacao
             // 
-            this.numeric_AnoFabricacao.Location = new System.Drawing.Point(517, 166);
+            this.numeric_AnoFabricacao.Location = new System.Drawing.Point(519, 198);
             this.numeric_AnoFabricacao.Maximum = new decimal(new int[] {
             2500,
             0,
@@ -215,7 +215,7 @@
             // 
             this.label_Cor.AutoSize = true;
             this.label_Cor.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Cor.Location = new System.Drawing.Point(60, 199);
+            this.label_Cor.Location = new System.Drawing.Point(64, 200);
             this.label_Cor.Name = "label_Cor";
             this.label_Cor.Size = new System.Drawing.Size(31, 19);
             this.label_Cor.TabIndex = 49;
@@ -225,14 +225,14 @@
             // 
             this.textBox_Cor.Location = new System.Drawing.Point(101, 201);
             this.textBox_Cor.Name = "textBox_Cor";
-            this.textBox_Cor.Size = new System.Drawing.Size(127, 20);
+            this.textBox_Cor.Size = new System.Drawing.Size(298, 20);
             this.textBox_Cor.TabIndex = 7;
             // 
             // label_Placa
             // 
             this.label_Placa.AutoSize = true;
             this.label_Placa.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Placa.Location = new System.Drawing.Point(242, 269);
+            this.label_Placa.Location = new System.Drawing.Point(45, 298);
             this.label_Placa.Name = "label_Placa";
             this.label_Placa.Size = new System.Drawing.Size(44, 19);
             this.label_Placa.TabIndex = 51;
@@ -240,7 +240,7 @@
             // 
             // textBox_Chassi
             // 
-            this.textBox_Chassi.Location = new System.Drawing.Point(378, 303);
+            this.textBox_Chassi.Location = new System.Drawing.Point(480, 168);
             this.textBox_Chassi.Name = "textBox_Chassi";
             this.textBox_Chassi.Size = new System.Drawing.Size(192, 20);
             this.textBox_Chassi.TabIndex = 8;
@@ -249,7 +249,7 @@
             // 
             this.label_Chassi.AutoSize = true;
             this.label_Chassi.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Chassi.Location = new System.Drawing.Point(320, 304);
+            this.label_Chassi.Location = new System.Drawing.Point(405, 166);
             this.label_Chassi.Name = "label_Chassi";
             this.label_Chassi.Size = new System.Drawing.Size(52, 19);
             this.label_Chassi.TabIndex = 53;
@@ -257,7 +257,7 @@
             // 
             // textBox_Placa
             // 
-            this.textBox_Placa.Location = new System.Drawing.Point(292, 269);
+            this.textBox_Placa.Location = new System.Drawing.Point(101, 299);
             this.textBox_Placa.Name = "textBox_Placa";
             this.textBox_Placa.Size = new System.Drawing.Size(107, 20);
             this.textBox_Placa.TabIndex = 6;
@@ -266,7 +266,7 @@
             // 
             this.label_RENAVAM.AutoSize = true;
             this.label_RENAVAM.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_RENAVAM.Location = new System.Drawing.Point(22, 305);
+            this.label_RENAVAM.Location = new System.Drawing.Point(26, 265);
             this.label_RENAVAM.Name = "label_RENAVAM";
             this.label_RENAVAM.Size = new System.Drawing.Size(69, 19);
             this.label_RENAVAM.TabIndex = 55;
@@ -274,16 +274,16 @@
             // 
             // textBox_RENAVAM
             // 
-            this.textBox_RENAVAM.Location = new System.Drawing.Point(101, 304);
+            this.textBox_RENAVAM.Location = new System.Drawing.Point(101, 265);
             this.textBox_RENAVAM.Name = "textBox_RENAVAM";
-            this.textBox_RENAVAM.Size = new System.Drawing.Size(204, 20);
+            this.textBox_RENAVAM.Size = new System.Drawing.Size(298, 20);
             this.textBox_RENAVAM.TabIndex = 4;
             // 
             // label_DataLicenciamento
             // 
             this.label_DataLicenciamento.AutoSize = true;
             this.label_DataLicenciamento.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_DataLicenciamento.Location = new System.Drawing.Point(234, 201);
+            this.label_DataLicenciamento.Location = new System.Drawing.Point(214, 299);
             this.label_DataLicenciamento.Name = "label_DataLicenciamento";
             this.label_DataLicenciamento.Size = new System.Drawing.Size(138, 19);
             this.label_DataLicenciamento.TabIndex = 57;
@@ -305,14 +305,14 @@
             "Outubro",
             "Novembro",
             "Dezembro"});
-            this.comboBox_MesLicenciamento.Location = new System.Drawing.Point(378, 202);
+            this.comboBox_MesLicenciamento.Location = new System.Drawing.Point(358, 299);
             this.comboBox_MesLicenciamento.Name = "comboBox_MesLicenciamento";
-            this.comboBox_MesLicenciamento.Size = new System.Drawing.Size(130, 21);
+            this.comboBox_MesLicenciamento.Size = new System.Drawing.Size(212, 21);
             this.comboBox_MesLicenciamento.TabIndex = 12;
             // 
             // numeric_AnoLicenciamento
             // 
-            this.numeric_AnoLicenciamento.Location = new System.Drawing.Point(514, 203);
+            this.numeric_AnoLicenciamento.Location = new System.Drawing.Point(582, 301);
             this.numeric_AnoLicenciamento.Maximum = new decimal(new int[] {
             2999,
             0,
@@ -324,7 +324,7 @@
             0,
             0});
             this.numeric_AnoLicenciamento.Name = "numeric_AnoLicenciamento";
-            this.numeric_AnoLicenciamento.Size = new System.Drawing.Size(56, 20);
+            this.numeric_AnoLicenciamento.Size = new System.Drawing.Size(73, 20);
             this.numeric_AnoLicenciamento.TabIndex = 13;
             this.numeric_AnoLicenciamento.Value = new decimal(new int[] {
             2015,
@@ -336,7 +336,7 @@
             // 
             this.label_Categoria.AutoSize = true;
             this.label_Categoria.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Categoria.Location = new System.Drawing.Point(403, 130);
+            this.label_Categoria.Location = new System.Drawing.Point(405, 129);
             this.label_Categoria.Name = "label_Categoria";
             this.label_Categoria.Size = new System.Drawing.Size(72, 19);
             this.label_Categoria.TabIndex = 60;
@@ -351,7 +351,7 @@
             "C"});
             this.comboBox_Categorias.Location = new System.Drawing.Point(480, 129);
             this.comboBox_Categorias.Name = "comboBox_Categorias";
-            this.comboBox_Categorias.Size = new System.Drawing.Size(90, 21);
+            this.comboBox_Categorias.Size = new System.Drawing.Size(192, 21);
             this.comboBox_Categorias.TabIndex = 2;
             // 
             // label_Fornecedor
@@ -558,7 +558,7 @@
             // 
             this.label_Combustivel.AutoSize = true;
             this.label_Combustivel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Combustivel.Location = new System.Drawing.Point(0, 266);
+            this.label_Combustivel.Location = new System.Drawing.Point(6, 233);
             this.label_Combustivel.Name = "label_Combustivel";
             this.label_Combustivel.Size = new System.Drawing.Size(89, 19);
             this.label_Combustivel.TabIndex = 95;
@@ -573,16 +573,16 @@
             "Gasolina",
             "Diesel",
             "GNV"});
-            this.comboBox_Combustivel.Location = new System.Drawing.Point(101, 267);
+            this.comboBox_Combustivel.Location = new System.Drawing.Point(101, 231);
             this.comboBox_Combustivel.Name = "comboBox_Combustivel";
-            this.comboBox_Combustivel.Size = new System.Drawing.Size(127, 21);
+            this.comboBox_Combustivel.Size = new System.Drawing.Size(298, 21);
             this.comboBox_Combustivel.TabIndex = 15;
             // 
             // label_Tanque
             // 
             this.label_Tanque.AutoSize = true;
             this.label_Tanque.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Tanque.Location = new System.Drawing.Point(234, 233);
+            this.label_Tanque.Location = new System.Drawing.Point(405, 230);
             this.label_Tanque.Name = "label_Tanque";
             this.label_Tanque.Size = new System.Drawing.Size(56, 19);
             this.label_Tanque.TabIndex = 97;
@@ -592,7 +592,7 @@
             // 
             this.label_KM.AutoSize = true;
             this.label_KM.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_KM.Location = new System.Drawing.Point(59, 235);
+            this.label_KM.Location = new System.Drawing.Point(578, 198);
             this.label_KM.Name = "label_KM";
             this.label_KM.Size = new System.Drawing.Size(30, 19);
             this.label_KM.TabIndex = 98;
@@ -608,17 +608,17 @@
             "2/4",
             "3/4",
             "1/1"});
-            this.comboBox_Tanque.Location = new System.Drawing.Point(292, 233);
+            this.comboBox_Tanque.Location = new System.Drawing.Point(463, 231);
             this.comboBox_Tanque.Name = "comboBox_Tanque";
-            this.comboBox_Tanque.Size = new System.Drawing.Size(107, 21);
+            this.comboBox_Tanque.Size = new System.Drawing.Size(121, 21);
             this.comboBox_Tanque.TabIndex = 16;
             this.comboBox_Tanque.SelectedIndexChanged += new System.EventHandler(this.comboBox_Tanque_SelectedIndexChanged);
             // 
             // textBox_KM
             // 
-            this.textBox_KM.Location = new System.Drawing.Point(101, 234);
+            this.textBox_KM.Location = new System.Drawing.Point(614, 198);
             this.textBox_KM.Name = "textBox_KM";
-            this.textBox_KM.Size = new System.Drawing.Size(127, 20);
+            this.textBox_KM.Size = new System.Drawing.Size(58, 20);
             this.textBox_KM.TabIndex = 11;
             this.textBox_KM.TextChanged += new System.EventHandler(this.textBox_KM_TextChanged);
             // 

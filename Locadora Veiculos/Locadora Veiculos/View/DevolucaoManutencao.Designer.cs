@@ -34,8 +34,6 @@
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton_Cancelar = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
-            this.label_DataPrevista = new System.Windows.Forms.Label();
-            this.dateTimePicker_DataPrevisa = new System.Windows.Forms.DateTimePicker();
             this.label_DataEntrega = new System.Windows.Forms.Label();
             this.dateTimePicker_DataEntrega = new System.Windows.Forms.DateTimePicker();
             this.textBox_Observacoes = new System.Windows.Forms.TextBox();
@@ -101,28 +99,11 @@
             this.toolStripSeparator9.Name = "toolStripSeparator9";
             this.toolStripSeparator9.Size = new System.Drawing.Size(3, 70);
             // 
-            // label_DataPrevista
-            // 
-            this.label_DataPrevista.AutoSize = true;
-            this.label_DataPrevista.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_DataPrevista.Location = new System.Drawing.Point(7, 88);
-            this.label_DataPrevista.Name = "label_DataPrevista";
-            this.label_DataPrevista.Size = new System.Drawing.Size(115, 19);
-            this.label_DataPrevista.TabIndex = 83;
-            this.label_DataPrevista.Text = "Entrega prevista";
-            // 
-            // dateTimePicker_DataPrevisa
-            // 
-            this.dateTimePicker_DataPrevisa.Location = new System.Drawing.Point(128, 88);
-            this.dateTimePicker_DataPrevisa.Name = "dateTimePicker_DataPrevisa";
-            this.dateTimePicker_DataPrevisa.Size = new System.Drawing.Size(229, 20);
-            this.dateTimePicker_DataPrevisa.TabIndex = 85;
-            // 
             // label_DataEntrega
             // 
             this.label_DataEntrega.AutoSize = true;
             this.label_DataEntrega.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_DataEntrega.Location = new System.Drawing.Point(7, 120);
+            this.label_DataEntrega.Location = new System.Drawing.Point(12, 101);
             this.label_DataEntrega.Name = "label_DataEntrega";
             this.label_DataEntrega.Size = new System.Drawing.Size(114, 19);
             this.label_DataEntrega.TabIndex = 86;
@@ -130,9 +111,9 @@
             // 
             // dateTimePicker_DataEntrega
             // 
-            this.dateTimePicker_DataEntrega.Location = new System.Drawing.Point(127, 120);
+            this.dateTimePicker_DataEntrega.Location = new System.Drawing.Point(132, 101);
             this.dateTimePicker_DataEntrega.Name = "dateTimePicker_DataEntrega";
-            this.dateTimePicker_DataEntrega.Size = new System.Drawing.Size(230, 20);
+            this.dateTimePicker_DataEntrega.Size = new System.Drawing.Size(247, 20);
             this.dateTimePicker_DataEntrega.TabIndex = 87;
             // 
             // textBox_Observacoes
@@ -146,10 +127,10 @@
             // label_Observacoes
             // 
             this.label_Observacoes.AutoSize = true;
-            this.label_Observacoes.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Observacoes.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Observacoes.Location = new System.Drawing.Point(12, 160);
             this.label_Observacoes.Name = "label_Observacoes";
-            this.label_Observacoes.Size = new System.Drawing.Size(90, 19);
+            this.label_Observacoes.Size = new System.Drawing.Size(93, 19);
             this.label_Observacoes.TabIndex = 89;
             this.label_Observacoes.Text = "Observações";
             // 
@@ -163,8 +144,6 @@
             this.Controls.Add(this.textBox_Observacoes);
             this.Controls.Add(this.dateTimePicker_DataEntrega);
             this.Controls.Add(this.label_DataEntrega);
-            this.Controls.Add(this.dateTimePicker_DataPrevisa);
-            this.Controls.Add(this.label_DataPrevista);
             this.Controls.Add(this.toolStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DevolucaoManutencao";
@@ -184,8 +163,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
         private System.Windows.Forms.ToolStripButton toolStripButton_Cancelar;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
-        private System.Windows.Forms.Label label_DataPrevista;
-        private System.Windows.Forms.DateTimePicker dateTimePicker_DataPrevisa;
         private System.Windows.Forms.Label label_DataEntrega;
         private System.Windows.Forms.DateTimePicker dateTimePicker_DataEntrega;
         private System.Windows.Forms.TextBox textBox_Observacoes;

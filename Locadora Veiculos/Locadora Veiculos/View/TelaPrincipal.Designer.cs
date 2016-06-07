@@ -67,20 +67,20 @@
             this.toolStripButton_Locacao,
             this.toolStripSeparator3,
             this.toolStripButton_Pedidos,
-            this.toolStripSeparator4,
-            this.toolStripButton_Clientes,
             this.toolStripSeparator2,
             this.toolStripButton_Veiculos,
+            this.toolStripSeparator4,
+            this.toolStripButton_Categorias,
+            this.toolStripSeparator5,
+            this.toolStripButton_Clientes,
             this.toolStripSeparator6,
             this.toolStripButton_Fornecedores,
             this.toolStripSeparator1,
-            this.toolStripButton_Categorias,
-            this.toolStripSeparator5,
             this.toolStripButton_Usuarios,
             this.toolStripSeparator7,
-            this.toolStripButton_Relatorios,
-            this.toolStripSeparator12,
             this.toolStripButton_TrocarUsuario,
+            this.toolStripSeparator12,
+            this.toolStripButton_Relatorios,
             this.toolStripSeparator11,
             this.toolStripButton_Backup,
             this.toolStripSeparator10,
@@ -356,7 +356,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Sistema Locadora de Veiculos - Alugue Facil";
+            this.Text = "Sistema Locadora de Veículos - Alugue Fácil";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

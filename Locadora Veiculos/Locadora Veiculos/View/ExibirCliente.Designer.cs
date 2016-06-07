@@ -191,16 +191,16 @@
             // 
             // textBox_Naturalidade
             // 
-            this.textBox_Naturalidade.Location = new System.Drawing.Point(613, 265);
-            this.textBox_Naturalidade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_Naturalidade.Location = new System.Drawing.Point(613, 264);
+            this.textBox_Naturalidade.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_Naturalidade.Name = "textBox_Naturalidade";
             this.textBox_Naturalidade.Size = new System.Drawing.Size(291, 27);
             this.textBox_Naturalidade.TabIndex = 89;
             // 
             // textBox_DataNasc
             // 
-            this.textBox_DataNasc.Location = new System.Drawing.Point(613, 298);
-            this.textBox_DataNasc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_DataNasc.Location = new System.Drawing.Point(613, 294);
+            this.textBox_DataNasc.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_DataNasc.Name = "textBox_DataNasc";
             this.textBox_DataNasc.Size = new System.Drawing.Size(192, 27);
             this.textBox_DataNasc.TabIndex = 91;
@@ -208,7 +208,7 @@
             // textBox_Bairro
             // 
             this.textBox_Bairro.Location = new System.Drawing.Point(132, 525);
-            this.textBox_Bairro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_Bairro.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_Bairro.Name = "textBox_Bairro";
             this.textBox_Bairro.Size = new System.Drawing.Size(260, 27);
             this.textBox_Bairro.TabIndex = 97;
@@ -226,8 +226,8 @@
             // 
             // textBox_InscEstadual
             // 
-            this.textBox_InscEstadual.Location = new System.Drawing.Point(132, 231);
-            this.textBox_InscEstadual.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_InscEstadual.Location = new System.Drawing.Point(132, 236);
+            this.textBox_InscEstadual.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_InscEstadual.Name = "textBox_InscEstadual";
             this.textBox_InscEstadual.Size = new System.Drawing.Size(348, 27);
             this.textBox_InscEstadual.TabIndex = 123;
@@ -249,7 +249,7 @@
             // textBox_CNPJ
             // 
             this.textBox_CNPJ.Location = new System.Drawing.Point(132, 331);
-            this.textBox_CNPJ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_CNPJ.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_CNPJ.Name = "textBox_CNPJ";
             this.textBox_CNPJ.Size = new System.Drawing.Size(348, 27);
             this.textBox_CNPJ.TabIndex = 121;
@@ -259,7 +259,7 @@
             // 
             this.label_CNPJ.AutoSize = true;
             this.label_CNPJ.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_CNPJ.Location = new System.Drawing.Point(79, 306);
+            this.label_CNPJ.Location = new System.Drawing.Point(84, 302);
             this.label_CNPJ.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_CNPJ.Name = "label_CNPJ";
             this.label_CNPJ.Size = new System.Drawing.Size(40, 19);
@@ -270,7 +270,7 @@
             // textBox_NomeFantasia
             // 
             this.textBox_NomeFantasia.Location = new System.Drawing.Point(132, 268);
-            this.textBox_NomeFantasia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_NomeFantasia.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_NomeFantasia.Name = "textBox_NomeFantasia";
             this.textBox_NomeFantasia.Size = new System.Drawing.Size(348, 27);
             this.textBox_NomeFantasia.TabIndex = 119;
@@ -280,7 +280,7 @@
             // 
             this.label_NomeFantasia.AutoSize = true;
             this.label_NomeFantasia.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_NomeFantasia.Location = new System.Drawing.Point(18, 239);
+            this.label_NomeFantasia.Location = new System.Drawing.Point(18, 244);
             this.label_NomeFantasia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_NomeFantasia.Name = "label_NomeFantasia";
             this.label_NomeFantasia.Size = new System.Drawing.Size(106, 19);
@@ -291,7 +291,7 @@
             // textBox_RazaoSocial
             // 
             this.textBox_RazaoSocial.Location = new System.Drawing.Point(132, 300);
-            this.textBox_RazaoSocial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_RazaoSocial.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_RazaoSocial.Name = "textBox_RazaoSocial";
             this.textBox_RazaoSocial.Size = new System.Drawing.Size(348, 27);
             this.textBox_RazaoSocial.TabIndex = 117;
@@ -301,7 +301,7 @@
             // 
             this.label_RazaoSocial.AutoSize = true;
             this.label_RazaoSocial.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_RazaoSocial.Location = new System.Drawing.Point(34, 276);
+            this.label_RazaoSocial.Location = new System.Drawing.Point(34, 272);
             this.label_RazaoSocial.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_RazaoSocial.Name = "label_RazaoSocial";
             this.label_RazaoSocial.Size = new System.Drawing.Size(90, 19);
@@ -312,7 +312,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(132, 613);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(673, 27);
             this.textBox1.TabIndex = 102;
@@ -331,7 +331,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(465, 567);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(340, 27);
             this.textBox2.TabIndex = 104;
@@ -350,7 +350,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(132, 567);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(260, 27);
             this.textBox3.TabIndex = 103;
@@ -370,7 +370,7 @@
             // 
             this.label_DataNasc.AutoSize = true;
             this.label_DataNasc.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_DataNasc.Location = new System.Drawing.Point(525, 303);
+            this.label_DataNasc.Location = new System.Drawing.Point(525, 300);
             this.label_DataNasc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_DataNasc.Name = "label_DataNasc";
             this.label_DataNasc.Size = new System.Drawing.Size(80, 19);
@@ -379,8 +379,8 @@
             // 
             // textBox_Passaporte
             // 
-            this.textBox_Passaporte.Location = new System.Drawing.Point(132, 231);
-            this.textBox_Passaporte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_Passaporte.Location = new System.Drawing.Point(132, 236);
+            this.textBox_Passaporte.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_Passaporte.Name = "textBox_Passaporte";
             this.textBox_Passaporte.Size = new System.Drawing.Size(348, 27);
             this.textBox_Passaporte.TabIndex = 92;
@@ -410,7 +410,7 @@
             // textBox_CNH
             // 
             this.textBox_CNH.Location = new System.Drawing.Point(132, 331);
-            this.textBox_CNH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_CNH.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_CNH.Name = "textBox_CNH";
             this.textBox_CNH.Size = new System.Drawing.Size(348, 27);
             this.textBox_CNH.TabIndex = 90;
@@ -419,7 +419,7 @@
             // 
             this.label_CNH.AutoSize = true;
             this.label_CNH.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_CNH.Location = new System.Drawing.Point(88, 306);
+            this.label_CNH.Location = new System.Drawing.Point(88, 302);
             this.label_CNH.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_CNH.Name = "label_CNH";
             this.label_CNH.Size = new System.Drawing.Size(36, 20);
@@ -429,7 +429,7 @@
             // textBox_RG
             // 
             this.textBox_RG.Location = new System.Drawing.Point(132, 300);
-            this.textBox_RG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_RG.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_RG.Name = "textBox_RG";
             this.textBox_RG.Size = new System.Drawing.Size(348, 27);
             this.textBox_RG.TabIndex = 87;
@@ -466,7 +466,7 @@
             "SE\t ",
             "TO"});
             this.comboBox_Estado.Location = new System.Drawing.Point(865, 530);
-            this.comboBox_Estado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox_Estado.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox_Estado.Name = "comboBox_Estado";
             this.comboBox_Estado.Size = new System.Drawing.Size(43, 27);
             this.comboBox_Estado.TabIndex = 100;
@@ -475,7 +475,7 @@
             // 
             this.label_RG.AutoSize = true;
             this.label_RG.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.label_RG.Location = new System.Drawing.Point(96, 277);
+            this.label_RG.Location = new System.Drawing.Point(96, 271);
             this.label_RG.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_RG.Name = "label_RG";
             this.label_RG.Size = new System.Drawing.Size(28, 20);
@@ -497,7 +497,7 @@
             // 
             this.label_CPF.AutoSize = true;
             this.label_CPF.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_CPF.Location = new System.Drawing.Point(572, 234);
+            this.label_CPF.Location = new System.Drawing.Point(572, 239);
             this.label_CPF.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_CPF.Name = "label_CPF";
             this.label_CPF.Size = new System.Drawing.Size(33, 19);
@@ -506,8 +506,8 @@
             // 
             // textBox_CPF
             // 
-            this.textBox_CPF.Location = new System.Drawing.Point(613, 230);
-            this.textBox_CPF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_CPF.Location = new System.Drawing.Point(613, 234);
+            this.textBox_CPF.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_CPF.Name = "textBox_CPF";
             this.textBox_CPF.Size = new System.Drawing.Size(291, 27);
             this.textBox_CPF.TabIndex = 86;
@@ -515,7 +515,7 @@
             // textBox_Cidade
             // 
             this.textBox_Cidade.Location = new System.Drawing.Point(465, 528);
-            this.textBox_Cidade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_Cidade.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_Cidade.Name = "textBox_Cidade";
             this.textBox_Cidade.Size = new System.Drawing.Size(340, 27);
             this.textBox_Cidade.TabIndex = 99;
@@ -534,7 +534,7 @@
             // textBox_CEP
             // 
             this.textBox_CEP.Location = new System.Drawing.Point(132, 488);
-            this.textBox_CEP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_CEP.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_CEP.Name = "textBox_CEP";
             this.textBox_CEP.Size = new System.Drawing.Size(187, 27);
             this.textBox_CEP.TabIndex = 93;
@@ -553,7 +553,7 @@
             // textBox_N
             // 
             this.textBox_N.Location = new System.Drawing.Point(845, 488);
-            this.textBox_N.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_N.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_N.Name = "textBox_N";
             this.textBox_N.Size = new System.Drawing.Size(63, 27);
             this.textBox_N.TabIndex = 96;
@@ -572,7 +572,7 @@
             // textBox_Logradouro
             // 
             this.textBox_Logradouro.Location = new System.Drawing.Point(427, 488);
-            this.textBox_Logradouro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_Logradouro.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_Logradouro.Name = "textBox_Logradouro";
             this.textBox_Logradouro.Size = new System.Drawing.Size(378, 27);
             this.textBox_Logradouro.TabIndex = 94;
@@ -594,9 +594,9 @@
             this.groupBox_TipoPessoa.Controls.Add(this.radioButton_PessoaFisica);
             this.groupBox_TipoPessoa.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox_TipoPessoa.Location = new System.Drawing.Point(80, 139);
-            this.groupBox_TipoPessoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_TipoPessoa.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox_TipoPessoa.Name = "groupBox_TipoPessoa";
-            this.groupBox_TipoPessoa.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_TipoPessoa.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox_TipoPessoa.Size = new System.Drawing.Size(312, 76);
             this.groupBox_TipoPessoa.TabIndex = 88;
             this.groupBox_TipoPessoa.TabStop = false;
@@ -606,7 +606,7 @@
             // 
             this.radioButton_PessoaJuridica.AutoSize = true;
             this.radioButton_PessoaJuridica.Location = new System.Drawing.Point(163, 28);
-            this.radioButton_PessoaJuridica.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton_PessoaJuridica.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton_PessoaJuridica.Name = "radioButton_PessoaJuridica";
             this.radioButton_PessoaJuridica.Size = new System.Drawing.Size(98, 17);
             this.radioButton_PessoaJuridica.TabIndex = 1;
@@ -618,7 +618,7 @@
             this.radioButton_PessoaFisica.AutoSize = true;
             this.radioButton_PessoaFisica.Checked = true;
             this.radioButton_PessoaFisica.Location = new System.Drawing.Point(29, 28);
-            this.radioButton_PessoaFisica.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton_PessoaFisica.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton_PessoaFisica.Name = "radioButton_PessoaFisica";
             this.radioButton_PessoaFisica.Size = new System.Drawing.Size(88, 17);
             this.radioButton_PessoaFisica.TabIndex = 0;
@@ -629,7 +629,7 @@
             // textBox_Nome
             // 
             this.textBox_Nome.Location = new System.Drawing.Point(132, 268);
-            this.textBox_Nome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_Nome.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_Nome.Name = "textBox_Nome";
             this.textBox_Nome.Size = new System.Drawing.Size(348, 27);
             this.textBox_Nome.TabIndex = 84;
@@ -638,7 +638,7 @@
             // 
             this.label_Nome.AutoSize = true;
             this.label_Nome.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Nome.Location = new System.Drawing.Point(79, 238);
+            this.label_Nome.Location = new System.Drawing.Point(79, 239);
             this.label_Nome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Nome.Name = "label_Nome";
             this.label_Nome.Size = new System.Drawing.Size(45, 20);
@@ -695,7 +695,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ExibirCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cliente";
